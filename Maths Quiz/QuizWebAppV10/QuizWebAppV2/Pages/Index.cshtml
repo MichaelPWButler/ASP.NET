@@ -1,0 +1,19 @@
+﻿@page
+@model MathsQuizV2WebApp.Pages.IndexModel
+@{
+} 
+@if (ViewData["ErrorMessage"] != null)
+{
+    <h1 class="errorMessage">@ViewData["ErrorMessage"]</h1>
+}
+<h1 class="titles">Welcome To The Quiz</h1>
+<a class="start-button" href="/LevelSelect">START</a>
+@if (ViewData["OutOfTime"] != null)
+{
+    <h1 class="errorMessage">@ViewData["OutOfTime"]</h1>
+}
+
+@if (ViewData["NiceTry"] != null)
+{
+    <h1 class="errorMessage">@ViewData["NiceTry"]</h1>
+}
