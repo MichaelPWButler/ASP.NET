@@ -1,0 +1,17 @@
+﻿@page
+@model QuizWebAppV2.Pages.QuizModel
+@{
+}
+<body>
+    <h1>Let The Games Begin</h1>
+    <form method="post">
+        @for(var i = 0; i < Model.QuestionsForQuiz.Count; i++)
+        {
+            int QuestionNumber = i + 1;
+            <h2>Question @QuestionNumber : </h2>
+            <h3 class="question" >@Model.QuestionsForQuiz[i].ReturnFullQuestion()</h3>
+            <input type = "number" class = "input-field" name="QuestionInput[@i]" required />
+        }
+        <button class="submit-button">SUBMIT</button>
+    </form>
+</body>

@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "OO8nYs75uIjFDDAxZ7OzKSh4W1CF0DpvELRROjo5UBc=",
+  "Source": "QuizWebAppV2",
+  "BasePath": "_content/QuizWebAppV2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "QuizWebAppV2\\wwwroot",
+      "Source": "QuizWebAppV2",
+      "ContentRoot": "D:\\source\\QuizWebAppV2\\QuizWebAppV2\\wwwroot\\",
+      "BasePath": "_content/QuizWebAppV2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\source\\QuizWebAppV2\\QuizWebAppV2\\wwwroot\\Styles.css",
+      "SourceId": "QuizWebAppV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\source\\QuizWebAppV2\\QuizWebAppV2\\wwwroot\\",
+      "BasePath": "_content/QuizWebAppV2",
+      "RelativePath": "Styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Styles.css"
+    }
+  ]
+}
