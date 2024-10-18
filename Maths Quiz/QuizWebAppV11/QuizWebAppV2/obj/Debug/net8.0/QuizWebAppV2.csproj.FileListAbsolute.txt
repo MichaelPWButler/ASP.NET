@@ -1,0 +1,420 @@
+D:\source\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\appsettings.Development.json
+D:\source\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\appsettings.json
+D:\source\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.staticwebassets.runtime.json
+D:\source\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.exe
+D:\source\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.deps.json
+D:\source\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.runtimeconfig.json
+D:\source\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.dll
+D:\source\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.pdb
+D:\source\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfoInputs.cache
+D:\source\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfo.cs
+D:\source\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.csproj.CoreCompileInputs.cache
+D:\source\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.MvcApplicationPartsAssemblyInfo.cache
+D:\source\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cache
+D:\source\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cs
+D:\source\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.build.json
+D:\source\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.development.json
+D:\source\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.QuizWebAppV2.Microsoft.AspNetCore.StaticWebAssets.props
+D:\source\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.build.QuizWebAppV2.props
+D:\source\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuizWebAppV2.props
+D:\source\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuizWebAppV2.props
+D:\source\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.pack.json
+D:\source\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\scopedcss\bundle\QuizWebAppV2.styles.css
+D:\source\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.dll
+D:\source\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\refint\QuizWebAppV2.dll
+D:\source\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.pdb
+D:\source\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.genruntimeconfig.cache
+D:\source\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\ref\QuizWebAppV2.dll
+F:\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\appsettings.Development.json
+F:\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\appsettings.json
+F:\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.staticwebassets.runtime.json
+F:\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.exe
+F:\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.deps.json
+F:\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.runtimeconfig.json
+F:\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.dll
+F:\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.pdb
+F:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.GeneratedMSBuildEditorConfig.editorconfig
+F:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfoInputs.cache
+F:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfo.cs
+F:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.csproj.CoreCompileInputs.cache
+F:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.MvcApplicationPartsAssemblyInfo.cache
+F:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cache
+F:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cs
+F:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.build.json
+F:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.development.json
+F:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.QuizWebAppV2.Microsoft.AspNetCore.StaticWebAssets.props
+F:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.build.QuizWebAppV2.props
+F:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuizWebAppV2.props
+F:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuizWebAppV2.props
+F:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.pack.json
+F:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\scopedcss\bundle\QuizWebAppV2.styles.css
+F:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.dll
+F:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\refint\QuizWebAppV2.dll
+F:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.pdb
+F:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.genruntimeconfig.cache
+F:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\ref\QuizWebAppV2.dll
+E:\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\appsettings.Development.json
+E:\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\appsettings.json
+E:\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.staticwebassets.runtime.json
+E:\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.exe
+E:\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.deps.json
+E:\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.runtimeconfig.json
+E:\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.dll
+E:\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.pdb
+E:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.GeneratedMSBuildEditorConfig.editorconfig
+E:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfoInputs.cache
+E:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfo.cs
+E:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.csproj.CoreCompileInputs.cache
+E:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.MvcApplicationPartsAssemblyInfo.cache
+E:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cache
+E:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cs
+E:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.build.json
+E:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.development.json
+E:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.QuizWebAppV2.Microsoft.AspNetCore.StaticWebAssets.props
+E:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.build.QuizWebAppV2.props
+E:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuizWebAppV2.props
+E:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuizWebAppV2.props
+E:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.pack.json
+E:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\scopedcss\bundle\QuizWebAppV2.styles.css
+E:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.dll
+E:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\refint\QuizWebAppV2.dll
+E:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.pdb
+E:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.genruntimeconfig.cache
+E:\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\ref\QuizWebAppV2.dll
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\appsettings.json
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.staticwebassets.runtime.json
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.exe
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.deps.json
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.runtimeconfig.json
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.dll
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.pdb
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfoInputs.cache
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfo.cs
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.csproj.CoreCompileInputs.cache
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cache
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cs
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.QuizWebAppV2.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.build.QuizWebAppV2.props
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuizWebAppV2.props
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuizWebAppV2.props
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\scopedcss\bundle\QuizWebAppV2.styles.css
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.dll
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\refint\QuizWebAppV2.dll
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.pdb
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.genruntimeconfig.cache
+C:\Users\MichaelButler\OneDrive - PINEWOOD TECHNOLOGIES PLC\Desktop\QuizWebAppV2\QuizWebAppV2\obj\Debug\net8.0\ref\QuizWebAppV2.dll
+D:\source\QuizWebAppV3\QuizWebAppV2\bin\Debug\net8.0\appsettings.Development.json
+D:\source\QuizWebAppV3\QuizWebAppV2\bin\Debug\net8.0\appsettings.json
+D:\source\QuizWebAppV3\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.staticwebassets.runtime.json
+D:\source\QuizWebAppV3\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.exe
+D:\source\QuizWebAppV3\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.deps.json
+D:\source\QuizWebAppV3\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.runtimeconfig.json
+D:\source\QuizWebAppV3\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.dll
+D:\source\QuizWebAppV3\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.pdb
+D:\source\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfoInputs.cache
+D:\source\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfo.cs
+D:\source\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.csproj.CoreCompileInputs.cache
+D:\source\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.MvcApplicationPartsAssemblyInfo.cache
+D:\source\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cache
+D:\source\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cs
+D:\source\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.build.json
+D:\source\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.development.json
+D:\source\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.QuizWebAppV2.Microsoft.AspNetCore.StaticWebAssets.props
+D:\source\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.build.QuizWebAppV2.props
+D:\source\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuizWebAppV2.props
+D:\source\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuizWebAppV2.props
+D:\source\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.pack.json
+D:\source\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\scopedcss\bundle\QuizWebAppV2.styles.css
+D:\source\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.dll
+D:\source\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\refint\QuizWebAppV2.dll
+D:\source\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.pdb
+D:\source\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.genruntimeconfig.cache
+D:\source\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\ref\QuizWebAppV2.dll
+F:\QuizWebAppV3\QuizWebAppV2\bin\Debug\net8.0\appsettings.Development.json
+F:\QuizWebAppV3\QuizWebAppV2\bin\Debug\net8.0\appsettings.json
+F:\QuizWebAppV3\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.staticwebassets.runtime.json
+F:\QuizWebAppV3\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.exe
+F:\QuizWebAppV3\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.deps.json
+F:\QuizWebAppV3\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.runtimeconfig.json
+F:\QuizWebAppV3\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.dll
+F:\QuizWebAppV3\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.pdb
+F:\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.GeneratedMSBuildEditorConfig.editorconfig
+F:\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfoInputs.cache
+F:\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfo.cs
+F:\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.csproj.CoreCompileInputs.cache
+F:\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.MvcApplicationPartsAssemblyInfo.cache
+F:\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cache
+F:\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cs
+F:\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.build.json
+F:\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.development.json
+F:\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.QuizWebAppV2.Microsoft.AspNetCore.StaticWebAssets.props
+F:\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.build.QuizWebAppV2.props
+F:\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuizWebAppV2.props
+F:\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuizWebAppV2.props
+F:\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.pack.json
+F:\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\scopedcss\bundle\QuizWebAppV2.styles.css
+F:\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.dll
+F:\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\refint\QuizWebAppV2.dll
+F:\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.pdb
+F:\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.genruntimeconfig.cache
+F:\QuizWebAppV3\QuizWebAppV2\obj\Debug\net8.0\ref\QuizWebAppV2.dll
+D:\source\QuizWebAppV4\QuizWebAppV2\bin\Debug\net8.0\appsettings.Development.json
+D:\source\QuizWebAppV4\QuizWebAppV2\bin\Debug\net8.0\appsettings.json
+D:\source\QuizWebAppV4\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.staticwebassets.runtime.json
+D:\source\QuizWebAppV4\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.exe
+D:\source\QuizWebAppV4\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.deps.json
+D:\source\QuizWebAppV4\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.runtimeconfig.json
+D:\source\QuizWebAppV4\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.dll
+D:\source\QuizWebAppV4\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.pdb
+D:\source\QuizWebAppV4\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\QuizWebAppV4\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfoInputs.cache
+D:\source\QuizWebAppV4\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfo.cs
+D:\source\QuizWebAppV4\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.csproj.CoreCompileInputs.cache
+D:\source\QuizWebAppV4\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.MvcApplicationPartsAssemblyInfo.cache
+D:\source\QuizWebAppV4\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cache
+D:\source\QuizWebAppV4\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cs
+D:\source\QuizWebAppV4\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.build.json
+D:\source\QuizWebAppV4\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.development.json
+D:\source\QuizWebAppV4\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.QuizWebAppV2.Microsoft.AspNetCore.StaticWebAssets.props
+D:\source\QuizWebAppV4\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.build.QuizWebAppV2.props
+D:\source\QuizWebAppV4\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuizWebAppV2.props
+D:\source\QuizWebAppV4\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuizWebAppV2.props
+D:\source\QuizWebAppV4\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.pack.json
+D:\source\QuizWebAppV4\QuizWebAppV2\obj\Debug\net8.0\scopedcss\bundle\QuizWebAppV2.styles.css
+D:\source\QuizWebAppV4\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.dll
+D:\source\QuizWebAppV4\QuizWebAppV2\obj\Debug\net8.0\refint\QuizWebAppV2.dll
+D:\source\QuizWebAppV4\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.pdb
+D:\source\QuizWebAppV4\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.genruntimeconfig.cache
+D:\source\QuizWebAppV4\QuizWebAppV2\obj\Debug\net8.0\ref\QuizWebAppV2.dll
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\bin\Debug\net8.0\appsettings.Development.json
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\bin\Debug\net8.0\appsettings.json
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.staticwebassets.runtime.json
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.exe
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.deps.json
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.runtimeconfig.json
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.dll
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.pdb
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfoInputs.cache
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfo.cs
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.csproj.CoreCompileInputs.cache
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.MvcApplicationPartsAssemblyInfo.cache
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cache
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cs
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.build.json
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.development.json
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.QuizWebAppV2.Microsoft.AspNetCore.StaticWebAssets.props
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.build.QuizWebAppV2.props
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuizWebAppV2.props
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuizWebAppV2.props
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.pack.json
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\obj\Debug\net8.0\scopedcss\bundle\QuizWebAppV2.styles.css
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.dll
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\obj\Debug\net8.0\refint\QuizWebAppV2.dll
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.pdb
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.genruntimeconfig.cache
+D:\source\QuizWebAppV4(Quiz Class Attempted And Failed)\QuizWebAppV2\obj\Debug\net8.0\ref\QuizWebAppV2.dll
+D:\source\QuizWebAppV6\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\QuizWebAppV6\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfoInputs.cache
+D:\source\QuizWebAppV6\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfo.cs
+D:\source\QuizWebAppV6\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.csproj.CoreCompileInputs.cache
+D:\source\QuizWebAppV6\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.MvcApplicationPartsAssemblyInfo.cache
+D:\source\QuizWebAppV6\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cache
+D:\source\QuizWebAppV6\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cs
+D:\source\QuizWebAppV6\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.dll
+D:\source\QuizWebAppV6\QuizWebAppV2\obj\Debug\net8.0\refint\QuizWebAppV2.dll
+D:\source\QuizWebAppV6\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.pdb
+D:\source\QuizWebAppV6\QuizWebAppV2\bin\Debug\net8.0\appsettings.Development.json
+D:\source\QuizWebAppV6\QuizWebAppV2\bin\Debug\net8.0\appsettings.json
+D:\source\QuizWebAppV6\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.staticwebassets.runtime.json
+D:\source\QuizWebAppV6\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.exe
+D:\source\QuizWebAppV6\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.deps.json
+D:\source\QuizWebAppV6\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.runtimeconfig.json
+D:\source\QuizWebAppV6\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.dll
+D:\source\QuizWebAppV6\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.pdb
+D:\source\QuizWebAppV6\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.build.json
+D:\source\QuizWebAppV6\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.development.json
+D:\source\QuizWebAppV6\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.QuizWebAppV2.Microsoft.AspNetCore.StaticWebAssets.props
+D:\source\QuizWebAppV6\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.build.QuizWebAppV2.props
+D:\source\QuizWebAppV6\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuizWebAppV2.props
+D:\source\QuizWebAppV6\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuizWebAppV2.props
+D:\source\QuizWebAppV6\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.pack.json
+D:\source\QuizWebAppV6\QuizWebAppV2\obj\Debug\net8.0\scopedcss\bundle\QuizWebAppV2.styles.css
+D:\source\QuizWebAppV6\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.genruntimeconfig.cache
+D:\source\QuizWebAppV6\QuizWebAppV2\obj\Debug\net8.0\ref\QuizWebAppV2.dll
+D:\source\QuizWebAppV7\QuizWebAppV2\bin\Debug\net8.0\appsettings.Development.json
+D:\source\QuizWebAppV7\QuizWebAppV2\bin\Debug\net8.0\appsettings.json
+D:\source\QuizWebAppV7\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.staticwebassets.runtime.json
+D:\source\QuizWebAppV7\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.exe
+D:\source\QuizWebAppV7\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.deps.json
+D:\source\QuizWebAppV7\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.runtimeconfig.json
+D:\source\QuizWebAppV7\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.dll
+D:\source\QuizWebAppV7\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.pdb
+D:\source\QuizWebAppV7\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\QuizWebAppV7\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfoInputs.cache
+D:\source\QuizWebAppV7\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfo.cs
+D:\source\QuizWebAppV7\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.csproj.CoreCompileInputs.cache
+D:\source\QuizWebAppV7\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.MvcApplicationPartsAssemblyInfo.cache
+D:\source\QuizWebAppV7\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cache
+D:\source\QuizWebAppV7\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cs
+D:\source\QuizWebAppV7\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.build.json
+D:\source\QuizWebAppV7\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.development.json
+D:\source\QuizWebAppV7\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.QuizWebAppV2.Microsoft.AspNetCore.StaticWebAssets.props
+D:\source\QuizWebAppV7\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.build.QuizWebAppV2.props
+D:\source\QuizWebAppV7\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuizWebAppV2.props
+D:\source\QuizWebAppV7\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuizWebAppV2.props
+D:\source\QuizWebAppV7\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.pack.json
+D:\source\QuizWebAppV7\QuizWebAppV2\obj\Debug\net8.0\scopedcss\bundle\QuizWebAppV2.styles.css
+D:\source\QuizWebAppV7\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.dll
+D:\source\QuizWebAppV7\QuizWebAppV2\obj\Debug\net8.0\refint\QuizWebAppV2.dll
+D:\source\QuizWebAppV7\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.pdb
+D:\source\QuizWebAppV7\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.genruntimeconfig.cache
+D:\source\QuizWebAppV7\QuizWebAppV2\obj\Debug\net8.0\ref\QuizWebAppV2.dll
+D:\source\QuizWebAppV8\QuizWebAppV2\bin\Debug\net8.0\appsettings.Development.json
+D:\source\QuizWebAppV8\QuizWebAppV2\bin\Debug\net8.0\appsettings.json
+D:\source\QuizWebAppV8\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.staticwebassets.runtime.json
+D:\source\QuizWebAppV8\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.exe
+D:\source\QuizWebAppV8\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.deps.json
+D:\source\QuizWebAppV8\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.runtimeconfig.json
+D:\source\QuizWebAppV8\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.dll
+D:\source\QuizWebAppV8\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.pdb
+D:\source\QuizWebAppV8\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\QuizWebAppV8\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfoInputs.cache
+D:\source\QuizWebAppV8\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfo.cs
+D:\source\QuizWebAppV8\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.csproj.CoreCompileInputs.cache
+D:\source\QuizWebAppV8\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.MvcApplicationPartsAssemblyInfo.cache
+D:\source\QuizWebAppV8\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cache
+D:\source\QuizWebAppV8\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cs
+D:\source\QuizWebAppV8\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.build.json
+D:\source\QuizWebAppV8\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.development.json
+D:\source\QuizWebAppV8\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.QuizWebAppV2.Microsoft.AspNetCore.StaticWebAssets.props
+D:\source\QuizWebAppV8\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.build.QuizWebAppV2.props
+D:\source\QuizWebAppV8\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuizWebAppV2.props
+D:\source\QuizWebAppV8\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuizWebAppV2.props
+D:\source\QuizWebAppV8\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.pack.json
+D:\source\QuizWebAppV8\QuizWebAppV2\obj\Debug\net8.0\scopedcss\bundle\QuizWebAppV2.styles.css
+D:\source\QuizWebAppV8\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.dll
+D:\source\QuizWebAppV8\QuizWebAppV2\obj\Debug\net8.0\refint\QuizWebAppV2.dll
+D:\source\QuizWebAppV8\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.pdb
+D:\source\QuizWebAppV8\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.genruntimeconfig.cache
+D:\source\QuizWebAppV8\QuizWebAppV2\obj\Debug\net8.0\ref\QuizWebAppV2.dll
+D:\source\QuizWebAppV9\QuizWebAppV2\bin\Debug\net8.0\appsettings.Development.json
+D:\source\QuizWebAppV9\QuizWebAppV2\bin\Debug\net8.0\appsettings.json
+D:\source\QuizWebAppV9\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.staticwebassets.runtime.json
+D:\source\QuizWebAppV9\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.exe
+D:\source\QuizWebAppV9\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.deps.json
+D:\source\QuizWebAppV9\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.runtimeconfig.json
+D:\source\QuizWebAppV9\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.dll
+D:\source\QuizWebAppV9\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.pdb
+D:\source\QuizWebAppV9\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\QuizWebAppV9\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfoInputs.cache
+D:\source\QuizWebAppV9\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfo.cs
+D:\source\QuizWebAppV9\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.csproj.CoreCompileInputs.cache
+D:\source\QuizWebAppV9\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.MvcApplicationPartsAssemblyInfo.cache
+D:\source\QuizWebAppV9\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cache
+D:\source\QuizWebAppV9\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cs
+D:\source\QuizWebAppV9\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.build.json
+D:\source\QuizWebAppV9\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.development.json
+D:\source\QuizWebAppV9\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.QuizWebAppV2.Microsoft.AspNetCore.StaticWebAssets.props
+D:\source\QuizWebAppV9\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.build.QuizWebAppV2.props
+D:\source\QuizWebAppV9\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuizWebAppV2.props
+D:\source\QuizWebAppV9\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuizWebAppV2.props
+D:\source\QuizWebAppV9\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.pack.json
+D:\source\QuizWebAppV9\QuizWebAppV2\obj\Debug\net8.0\scopedcss\bundle\QuizWebAppV2.styles.css
+D:\source\QuizWebAppV9\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.dll
+D:\source\QuizWebAppV9\QuizWebAppV2\obj\Debug\net8.0\refint\QuizWebAppV2.dll
+D:\source\QuizWebAppV9\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.pdb
+D:\source\QuizWebAppV9\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.genruntimeconfig.cache
+D:\source\QuizWebAppV9\QuizWebAppV2\obj\Debug\net8.0\ref\QuizWebAppV2.dll
+D:\source\QuizWebAppV10\QuizWebAppV2\bin\Debug\net8.0\appsettings.Development.json
+D:\source\QuizWebAppV10\QuizWebAppV2\bin\Debug\net8.0\appsettings.json
+D:\source\QuizWebAppV10\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.staticwebassets.runtime.json
+D:\source\QuizWebAppV10\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.exe
+D:\source\QuizWebAppV10\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.deps.json
+D:\source\QuizWebAppV10\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.runtimeconfig.json
+D:\source\QuizWebAppV10\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.dll
+D:\source\QuizWebAppV10\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.pdb
+D:\source\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfoInputs.cache
+D:\source\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfo.cs
+D:\source\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.csproj.CoreCompileInputs.cache
+D:\source\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.MvcApplicationPartsAssemblyInfo.cache
+D:\source\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cache
+D:\source\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cs
+D:\source\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.build.json
+D:\source\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.development.json
+D:\source\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.QuizWebAppV2.Microsoft.AspNetCore.StaticWebAssets.props
+D:\source\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.build.QuizWebAppV2.props
+D:\source\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuizWebAppV2.props
+D:\source\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuizWebAppV2.props
+D:\source\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.pack.json
+D:\source\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\scopedcss\bundle\QuizWebAppV2.styles.css
+D:\source\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.dll
+D:\source\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\refint\QuizWebAppV2.dll
+D:\source\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.pdb
+D:\source\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.genruntimeconfig.cache
+D:\source\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\ref\QuizWebAppV2.dll
+F:\QuizWebAppV10\QuizWebAppV2\bin\Debug\net8.0\appsettings.Development.json
+F:\QuizWebAppV10\QuizWebAppV2\bin\Debug\net8.0\appsettings.json
+F:\QuizWebAppV10\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.staticwebassets.runtime.json
+F:\QuizWebAppV10\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.exe
+F:\QuizWebAppV10\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.deps.json
+F:\QuizWebAppV10\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.runtimeconfig.json
+F:\QuizWebAppV10\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.dll
+F:\QuizWebAppV10\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.pdb
+F:\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.GeneratedMSBuildEditorConfig.editorconfig
+F:\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfoInputs.cache
+F:\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfo.cs
+F:\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.csproj.CoreCompileInputs.cache
+F:\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.MvcApplicationPartsAssemblyInfo.cache
+F:\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cache
+F:\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cs
+F:\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.build.json
+F:\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.development.json
+F:\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.QuizWebAppV2.Microsoft.AspNetCore.StaticWebAssets.props
+F:\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.build.QuizWebAppV2.props
+F:\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuizWebAppV2.props
+F:\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuizWebAppV2.props
+F:\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.pack.json
+F:\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\scopedcss\bundle\QuizWebAppV2.styles.css
+F:\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.dll
+F:\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\refint\QuizWebAppV2.dll
+F:\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.pdb
+F:\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.genruntimeconfig.cache
+F:\QuizWebAppV10\QuizWebAppV2\obj\Debug\net8.0\ref\QuizWebAppV2.dll
+E:\QuizWebAppV11\QuizWebAppV2\bin\Debug\net8.0\appsettings.Development.json
+E:\QuizWebAppV11\QuizWebAppV2\bin\Debug\net8.0\appsettings.json
+E:\QuizWebAppV11\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.staticwebassets.runtime.json
+E:\QuizWebAppV11\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.exe
+E:\QuizWebAppV11\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.deps.json
+E:\QuizWebAppV11\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.runtimeconfig.json
+E:\QuizWebAppV11\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.dll
+E:\QuizWebAppV11\QuizWebAppV2\bin\Debug\net8.0\QuizWebAppV2.pdb
+E:\QuizWebAppV11\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.GeneratedMSBuildEditorConfig.editorconfig
+E:\QuizWebAppV11\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfoInputs.cache
+E:\QuizWebAppV11\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.AssemblyInfo.cs
+E:\QuizWebAppV11\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.csproj.CoreCompileInputs.cache
+E:\QuizWebAppV11\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.MvcApplicationPartsAssemblyInfo.cache
+E:\QuizWebAppV11\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cache
+E:\QuizWebAppV11\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.RazorAssemblyInfo.cs
+E:\QuizWebAppV11\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.build.json
+E:\QuizWebAppV11\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.development.json
+E:\QuizWebAppV11\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.QuizWebAppV2.Microsoft.AspNetCore.StaticWebAssets.props
+E:\QuizWebAppV11\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.build.QuizWebAppV2.props
+E:\QuizWebAppV11\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuizWebAppV2.props
+E:\QuizWebAppV11\QuizWebAppV2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuizWebAppV2.props
+E:\QuizWebAppV11\QuizWebAppV2\obj\Debug\net8.0\staticwebassets.pack.json
+E:\QuizWebAppV11\QuizWebAppV2\obj\Debug\net8.0\scopedcss\bundle\QuizWebAppV2.styles.css
+E:\QuizWebAppV11\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.dll
+E:\QuizWebAppV11\QuizWebAppV2\obj\Debug\net8.0\refint\QuizWebAppV2.dll
+E:\QuizWebAppV11\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.pdb
+E:\QuizWebAppV11\QuizWebAppV2\obj\Debug\net8.0\QuizWebAppV2.genruntimeconfig.cache
+E:\QuizWebAppV11\QuizWebAppV2\obj\Debug\net8.0\ref\QuizWebAppV2.dll
