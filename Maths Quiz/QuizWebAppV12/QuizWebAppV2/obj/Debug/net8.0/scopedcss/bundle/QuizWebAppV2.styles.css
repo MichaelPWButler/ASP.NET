@@ -1,0 +1,19 @@
+/* _content/QuizWebAppV2/Pages/QuizPage.cshtml.rz.scp.css */
+
+#TopBorder[b-duvkpkidos] {
+    background-color: red;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    height: 20px;
+    left: 0
+}
+
+#BottomBorder[b-duvkpkidos] {
+    background-color: red;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    height: 20px;
+    left: 0
+}
