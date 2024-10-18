@@ -1,0 +1,21 @@
+﻿@page
+@model MathsQuizV2WebApp.Pages.IndexModel
+@{
+}
+@if (Model.error != null && (Model.error.Contains("Invalid")))
+{
+    <h1 class="errorMessage">@Model.error</h1>
+}
+
+<h1 class="titles">Welcome To The Quiz</h1>
+<a class="start-button" href="/LevelSelect">START</a>
+
+@if (Model.error != null && (Model.error.Contains("Nice")))
+{
+    <h1 class="errorMessage">@Model.error</h1>
+}
+
+<script>
+    sessionStorage.removeItem("remainingSeconds");
+</script>
+
