@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
+using RazorPagesMovie.Models;
 using Movies_Tutorial_Application.Data;
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +9,13 @@ builder.Services.AddDbContext<Movies_Tutorial_ApplicationContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Movies_Tutorial_ApplicationContext") ?? throw new InvalidOperationException("Connection string 'Movies_Tutorial_ApplicationContext' not found.")));
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+
+    SeedData.Initialize(services);
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
