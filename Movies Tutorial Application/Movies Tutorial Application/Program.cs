@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using RazorPagesMovie.Models;
 using Movies_Tutorial_Application.Data;
+using Movies_Tutorial_Application.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
