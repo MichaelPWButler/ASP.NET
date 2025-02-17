@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\MichaelButler\\.nuget\\packages\\": {}
+    "C:\\Users\\mpwb1\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\source\\QuizWebAppV13\\QuizWebAppV2\\QuizWebAppV2.csproj",
+      "projectUniqueName": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Maths Quiz\\QuizWebAppV13\\QuizWebAppV2\\QuizWebAppV2.csproj",
       "projectName": "QuizWebAppV2",
-      "projectPath": "D:\\source\\QuizWebAppV13\\QuizWebAppV2\\QuizWebAppV2.csproj",
-      "packagesPath": "C:\\Users\\MichaelButler\\.nuget\\packages\\",
-      "outputPath": "D:\\source\\QuizWebAppV13\\QuizWebAppV2\\obj\\",
+      "projectPath": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Maths Quiz\\QuizWebAppV13\\QuizWebAppV2\\QuizWebAppV2.csproj",
+      "packagesPath": "C:\\Users\\mpwb1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Maths Quiz\\QuizWebAppV13\\QuizWebAppV2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MichaelButler\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mpwb1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -70,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

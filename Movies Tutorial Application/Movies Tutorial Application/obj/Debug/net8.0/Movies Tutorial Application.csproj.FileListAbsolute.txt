@@ -262,18 +262,6 @@ C:\Users\mpwb1\source\repos\MichaelPWButler\Razor-Pages\Movies Tutorial Applicat
 C:\Users\mpwb1\source\repos\MichaelPWButler\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\mpwb1\source\repos\MichaelPWButler\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.csproj.AssemblyReference.cache
 C:\Users\mpwb1\source\repos\MichaelPWButler\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies T.7961BEB2.Up2Date
-C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.csproj.AssemblyReference.cache
-C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.AssemblyInfoInputs.cache
-C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.AssemblyInfo.cs
-C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.csproj.CoreCompileInputs.cache
-C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.RazorAssemblyInfo.cache
-C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.RazorAssemblyInfo.cs
-C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.sourcelink.json
-C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.dll
-C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\refint\Movies Tutorial Application.dll
-C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.pdb
 C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\bin\Debug\net8.0\appsettings.json
 C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\bin\Debug\net8.0\Movies Tutorial Application.staticwebassets.runtime.json
@@ -509,6 +497,15 @@ C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial A
 C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.csproj.AssemblyReference.cache
+C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.AssemblyInfoInputs.cache
+C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.AssemblyInfo.cs
+C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.csproj.CoreCompileInputs.cache
+C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.RazorAssemblyInfo.cache
+C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.RazorAssemblyInfo.cs
+C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.sourcelink.json
 C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\staticwebassets\msbuild.Movies Tutorial Application.Microsoft.AspNetCore.StaticWebAssets.props
@@ -516,9 +513,10 @@ C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial A
 C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Movies Tutorial Application.props
 C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Movies Tutorial Application.props
 C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\scopedcss\bundle\Movies Tutorial Application.styles.css
-C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\scopedcss\projectbundle\Movies Tutorial Application.bundle.scp.css
 C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies T.7961BEB2.Up2Date
+C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.dll
+C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\refint\Movies Tutorial Application.dll
+C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.pdb
 C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.genruntimeconfig.cache
 C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\ref\Movies Tutorial Application.dll

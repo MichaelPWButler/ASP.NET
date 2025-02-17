@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "66v+bxXAac71AXV0M80eSgqrHR+4oCOeRkK9gqez+v8=",
+  "Hash": "VzN5thFJkhZ6KT4ohuj33ZoJkOZEqkgmdhsKB8sCRIg=",
   "Source": "Movies Tutorial Application",
   "BasePath": "_content/Movies Tutorial Application",
   "Mode": "Default",
@@ -16,44 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Movies Tutorial Application\\Movies Tutorial Application\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Movies Tutorial Application.styles.css",
-      "SourceId": "Movies Tutorial Application",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Movies Tutorial Application\\Movies Tutorial Application\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/Movies Tutorial Application",
-      "RelativePath": "Movies Tutorial Application.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Movies Tutorial Application\\Movies Tutorial Application\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Movies Tutorial Application.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Movies Tutorial Application\\Movies Tutorial Application\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Movies Tutorial Application.bundle.scp.css",
-      "SourceId": "Movies Tutorial Application",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Movies Tutorial Application\\Movies Tutorial Application\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/Movies Tutorial Application",
-      "RelativePath": "Movies Tutorial Application.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Movies Tutorial Application\\Movies Tutorial Application\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Movies Tutorial Application.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Movies Tutorial Application\\Movies Tutorial Application\\wwwroot\\css\\site.css",
       "SourceId": "Movies Tutorial Application",
@@ -91,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Movies Tutorial Application\\Movies Tutorial Application\\wwwroot\\Images\\MovieIndex.png",
+      "SourceId": "Movies Tutorial Application",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Movies Tutorial Application\\Movies Tutorial Application\\wwwroot\\",
+      "BasePath": "_content/Movies Tutorial Application",
+      "RelativePath": "Images/MovieIndex.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\MovieIndex.png"
     },
     {
       "Identity": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Movies Tutorial Application\\Movies Tutorial Application\\wwwroot\\js\\site.js",
