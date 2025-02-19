@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VzN5thFJkhZ6KT4ohuj33ZoJkOZEqkgmdhsKB8sCRIg=",
+  "Hash": "mFhBfWbUIeMeQF29GWj4hs1/gfDk0bs3i0CARySLb2U=",
   "Source": "Movies Tutorial Application",
   "BasePath": "_content/Movies Tutorial Application",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\MovieIndex.png"
+    },
+    {
+      "Identity": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Movies Tutorial Application\\Movies Tutorial Application\\wwwroot\\Images\\New.png",
+      "SourceId": "Movies Tutorial Application",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Movies Tutorial Application\\Movies Tutorial Application\\wwwroot\\",
+      "BasePath": "_content/Movies Tutorial Application",
+      "RelativePath": "Images/New.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\New.png"
     },
     {
       "Identity": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Movies Tutorial Application\\Movies Tutorial Application\\wwwroot\\js\\site.js",

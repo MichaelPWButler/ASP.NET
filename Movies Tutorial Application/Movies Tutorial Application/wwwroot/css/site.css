@@ -47,7 +47,7 @@ body {
     align-items: center; /* Vertically center */
     justify-content: center; /* Horizontally center */
     gap: 10px; /* Optional: Adds spacing between items */
-    margin-top: 15px;
+
 }
 
 .card{
@@ -55,4 +55,19 @@ body {
     height: 500px;
     background-color: red;
     margin: 20px;
+    align-items: center;
+    font-size: 10px;
+    gap: 15px;
+}
+
+#newImage {
+    padding-top: 10px;
+    max-width: 50%;
+    max-height: 50%
+}
+
+#inline {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; /* Adds spacing between h2 and h3 */
 }

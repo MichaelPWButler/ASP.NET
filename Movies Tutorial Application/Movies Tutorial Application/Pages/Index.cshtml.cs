@@ -1,20 +1,34 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Movies_Tutorial_Application.Data;
+using Movies_Tutorial_Application.Models;
 
 namespace Movies_Tutorial_Application.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        private readonly Movies_Tutorial_ApplicationContext _context; // Inject the DbContext
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public IndexModel(Movies_Tutorial_ApplicationContext context)
         {
-            _logger = logger;
+            _context = context;
+        }
+        public async Task OnGetAsync()
+        {
+            LatestMovie = await _context.Movie
+            .OrderByDescending(m => m.Id)
+            .FirstOrDefaultAsync();
+
+            LatestTitle = LatestMovie?.Title;
+            LatestGenre = LatestMovie?.Genre;
+            LatestPrice = LatestMovie?.Price;
         }
 
-        public void OnGet()
-        {
-
-        }
+        public Movie? LatestMovie { get; set; }
+        public string? LatestTitle { get; set; }
+        public string? LatestGenre { get; set; }
+        public decimal? LatestPrice { get; set; }
     }
 }
