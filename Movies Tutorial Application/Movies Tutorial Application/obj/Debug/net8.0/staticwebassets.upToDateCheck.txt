@@ -1,5 +1,9 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Images\HAPPY.png
+wwwroot\Images\MovieIndex.png
+wwwroot\Images\New.png
+wwwroot\Images\SAD.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

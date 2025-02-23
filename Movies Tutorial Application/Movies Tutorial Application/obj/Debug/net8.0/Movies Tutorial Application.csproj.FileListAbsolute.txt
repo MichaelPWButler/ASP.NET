@@ -520,3 +520,7 @@ C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial A
 C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.pdb
 C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\Movies Tutorial Application.genruntimeconfig.cache
 C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\ref\Movies Tutorial Application.dll
+C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\bin\Debug\net8.0\Movies Tutorial Application.staticwebassets.endpoints.json
+C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\staticwebassets\msbuild.Movies Tutorial Application.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\mpwb1\Desktop\Razor-Pages\Movies Tutorial Application\Movies Tutorial Application\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

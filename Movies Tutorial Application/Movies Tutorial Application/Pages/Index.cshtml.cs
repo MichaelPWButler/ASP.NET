@@ -18,17 +18,26 @@ namespace Movies_Tutorial_Application.Pages
         public async Task OnGetAsync()
         {
             LatestMovie = await _context.Movie
-            .OrderByDescending(m => m.Id)
+            .OrderByDescending(movie => movie.Id)
             .FirstOrDefaultAsync();
 
-            LatestTitle = LatestMovie?.Title;
-            LatestGenre = LatestMovie?.Genre;
-            LatestPrice = LatestMovie?.Price;
+            CheapestMovie = await _context.Movie
+            .OrderBy(movie => movie.Price)
+            .FirstOrDefaultAsync();
+
+
+            ExpensiveMovie = await _context.Movie
+            .OrderByDescending(movie => movie.Price)
+            .FirstOrDefaultAsync();
+
+
         }
 
         public Movie? LatestMovie { get; set; }
-        public string? LatestTitle { get; set; }
-        public string? LatestGenre { get; set; }
-        public decimal? LatestPrice { get; set; }
+
+        public Movie? CheapestMovie { get; set; }
+        public Movie? ExpensiveMovie { get; set; }
+      
+        
     }
 }

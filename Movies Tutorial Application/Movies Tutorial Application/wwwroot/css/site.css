@@ -47,17 +47,19 @@ body {
     align-items: center; /* Vertically center */
     justify-content: center; /* Horizontally center */
     gap: 10px; /* Optional: Adds spacing between items */
+    margin-top: 10px;
 
 }
 
-.card{
+.card {
     width: 350px;
     height: 500px;
-    background-color: red;
     margin: 20px;
     align-items: center;
     font-size: 10px;
     gap: 15px;
+    border: 2px solid black;
+    border-radius: 25px;
 }
 
 #newImage {

@@ -1,12 +1,20 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Movies Tutorial Application\\Movies Tutorial Application\\wwwroot\\Images\\HAPPY.png",
+      "PackagePath": "staticwebassets\\Images\\HAPPY.png"
+    },
+    {
       "Id": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Movies Tutorial Application\\Movies Tutorial Application\\wwwroot\\Images\\MovieIndex.png",
       "PackagePath": "staticwebassets\\Images\\MovieIndex.png"
     },
     {
       "Id": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Movies Tutorial Application\\Movies Tutorial Application\\wwwroot\\Images\\New.png",
       "PackagePath": "staticwebassets\\Images\\New.png"
+    },
+    {
+      "Id": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Movies Tutorial Application\\Movies Tutorial Application\\wwwroot\\Images\\SAD.png",
+      "PackagePath": "staticwebassets\\Images\\SAD.png"
     },
     {
       "Id": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Movies Tutorial Application\\Movies Tutorial Application\\wwwroot\\css\\site.css",
@@ -247,6 +255,10 @@
     {
       "Id": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Movies Tutorial Application\\Movies Tutorial Application\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Movies Tutorial Application.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Movies Tutorial Application.Microsoft.AspNetCore.StaticWebAssets.props",

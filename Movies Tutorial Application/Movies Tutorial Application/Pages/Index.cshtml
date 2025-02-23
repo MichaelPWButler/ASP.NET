@@ -10,24 +10,51 @@
 </div>
 
 <div class="TheThreeCards">
+
     <div class="card">
         <img src="/Images/New.png" id="newImage"/>
-        <h1> Latest Added</h1>
+        <h1>Latest Added</h1>
         <div id="inline">
             <h2>Title:</h2>
-            <h3>@Model.LatestTitle</h3>
+            <h3>@Model.LatestMovie.Title</h3>
         </div>
 
         <div id="inline">
             <h2>Genre:</h2>
-            <h3>@Model.LatestGenre</h3>
+            <h3>@Model.LatestMovie.Genre</h3>
         </div>
 
         <div id="inline">
             <h2>Price:</h2>
-            <h3>£@Model.LatestPrice</h3>
+            <h3>£@Model.LatestMovie.Price</h3>
         </div>
     </div>
-    <div class="card"></div>
-    <div class="card"></div>
+
+    <div class="card">
+        <img src="/Images/HAPPY.png" id="newImage" />
+
+        <h1>Cheapest Movie</h1>
+
+        <h2>@Model.CheapestMovie.Title</h2>
+
+        <div id="inline">
+            <h2>Price:</h2>
+            <h3>£@Model.CheapestMovie.Price</h3>
+        </div>
+
+    </div>
+
+    <div class="card">
+        <img src="/Images/SAD.png" id="newImage" />
+
+        <h1>Expensive Movie</h1>
+
+        <h2>@Model.ExpensiveMovie.Title</h2>
+
+        <div id="inline">
+            <h2>Price:</h2>
+            <h3>@Model.ExpensiveMovie.Price</h3>
+        </div>
+
+    </div>
 </div>
