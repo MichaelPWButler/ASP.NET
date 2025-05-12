@@ -1,10 +1,40 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "My Portfolio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h2>My Trading212 Portfolio</h2>
+
+@if (Model.Portfolio?.Any() ?? false)
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Ticker</th>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Average Price</th>
+                <th>Current Price</th>
+                <th>PnL</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Portfolio)
+            {
+                <tr>
+                    <td>@item.Ticker</td>
+                    <td>@item.Name</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.AveragePrice</td>
+                    <td>@item.CurrentPrice</td>
+                    <td>@item.PnL</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No portfolio data available.</p>
+}

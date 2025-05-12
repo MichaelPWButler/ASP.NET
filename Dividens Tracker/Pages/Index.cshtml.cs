@@ -1,19 +1,21 @@
-using Microsoft.AspNetCore.Mvc;
+using Dividens_Tracker.Models;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Dividens_Tracker.Pages;
 
 public class IndexModel : PageModel
 {
-    private readonly ILogger<IndexModel> _logger;
+    private readonly Trading212ApiService _apiService;
 
-    public IndexModel(ILogger<IndexModel> logger)
+    public IndexModel(Trading212ApiService apiService)
     {
-        _logger = logger;
+        _apiService = apiService;
     }
 
-    public void OnGet()
-    {
+    public List<Instrument> Portfolio { get; set; } = new();
 
+    public async Task OnGetAsync()
+    {
+        Portfolio = await _apiService.GetPortfolioAsync();
     }
 }

@@ -1,0 +1,38 @@
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\bin\Debug\net8.0\appsettings.json
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\bin\Debug\net8.0\Dividens Tracker.staticwebassets.runtime.json
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\bin\Debug\net8.0\Dividens Tracker.staticwebassets.endpoints.json
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\bin\Debug\net8.0\Dividens Tracker.exe
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\bin\Debug\net8.0\Dividens Tracker.deps.json
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\bin\Debug\net8.0\Dividens Tracker.runtimeconfig.json
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\bin\Debug\net8.0\Dividens Tracker.dll
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\bin\Debug\net8.0\Dividens Tracker.pdb
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\Dividens Tracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\Dividens Tracker.AssemblyInfoInputs.cache
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\Dividens Tracker.AssemblyInfo.cs
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\Dividens Tracker.csproj.CoreCompileInputs.cache
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\Dividens Tracker.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\Dividens Tracker.RazorAssemblyInfo.cache
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\Dividens Tracker.RazorAssemblyInfo.cs
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\Dividens Tracker.sourcelink.json
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\scopedcss\bundle\Dividens Tracker.styles.css
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\scopedcss\projectbundle\Dividens Tracker.bundle.scp.css
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\staticwebassets\msbuild.Dividens Tracker.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\staticwebassets\msbuild.Dividens Tracker.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\staticwebassets\msbuild.build.Dividens Tracker.props
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Dividens Tracker.props
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Dividens Tracker.props
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\Dividens Tracker.dll
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\refint\Dividens Tracker.dll
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\Dividens Tracker.pdb
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\Dividens Tracker.genruntimeconfig.cache
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\ref\Dividens Tracker.dll
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\Dividens Tracker.csproj.AssemblyReference.cache
+C:\Users\mpwb1\Desktop\Razor-Pages\Dividens Tracker\obj\Debug\net8.0\Dividens.2230D07E.Up2Date

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dividens Tracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2517274df38b8e1e2b2cbfcd702bfa543361f674")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba74e930433f35d9f7f7b8b058c173ec536c3b32")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dividens Tracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dividens Tracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
