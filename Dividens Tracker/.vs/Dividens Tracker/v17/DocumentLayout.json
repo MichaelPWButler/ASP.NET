@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Dividens Tracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1206ACB9-4501-4EA7-A721-D73C29F15D25}|Dividens Tracker.csproj|c:\\users\\mpwb1\\desktop\\razor-pages\\dividens tracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1206ACB9-4501-4EA7-A721-D73C29F15D25}|Dividens Tracker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1206ACB9-4501-4EA7-A721-D73C29F15D25}|Dividens Tracker.csproj|c:\\users\\mpwb1\\desktop\\razor-pages\\dividens tracker\\trading212apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1206ACB9-4501-4EA7-A721-D73C29F15D25}|Dividens Tracker.csproj|solutionrelative:trading212apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1206ACB9-4501-4EA7-A721-D73C29F15D25}|Dividens Tracker.csproj|c:\\users\\mpwb1\\desktop\\razor-pages\\dividens tracker\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1206ACB9-4501-4EA7-A721-D73C29F15D25}|Dividens Tracker.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1206ACB9-4501-4EA7-A721-D73C29F15D25}|Dividens Tracker.csproj|c:\\users\\mpwb1\\desktop\\razor-pages\\dividens tracker\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1206ACB9-4501-4EA7-A721-D73C29F15D25}|Dividens Tracker.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1206ACB9-4501-4EA7-A721-D73C29F15D25}|Dividens Tracker.csproj|c:\\users\\mpwb1\\desktop\\razor-pages\\dividens tracker\\trading212apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1206ACB9-4501-4EA7-A721-D73C29F15D25}|Dividens Tracker.csproj|solutionrelative:trading212apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1206ACB9-4501-4EA7-A721-D73C29F15D25}|Dividens Tracker.csproj|c:\\users\\mpwb1\\desktop\\razor-pages\\dividens tracker\\controllers\\trading212controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1206ACB9-4501-4EA7-A721-D73C29F15D25}|Dividens Tracker.csproj|solutionrelative:controllers\\trading212controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1206ACB9-4501-4EA7-A721-D73C29F15D25}|Dividens Tracker.csproj|c:\\users\\mpwb1\\desktop\\razor-pages\\dividens tracker\\dividens tracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1206ACB9-4501-4EA7-A721-D73C29F15D25}|Dividens Tracker.csproj|solutionrelative:dividens tracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1206ACB9-4501-4EA7-A721-D73C29F15D25}|Dividens Tracker.csproj|c:\\users\\mpwb1\\desktop\\razor-pages\\dividens tracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1206ACB9-4501-4EA7-A721-D73C29F15D25}|Dividens Tracker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1206ACB9-4501-4EA7-A721-D73C29F15D25}|Dividens Tracker.csproj|c:\\users\\mpwb1\\desktop\\razor-pages\\dividens tracker\\models\\instrument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Trading212Controller.cs",
+              "DocumentMoniker": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Dividens Tracker\\Controllers\\Trading212Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\Trading212Controller.cs",
+              "ToolTip": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Dividens Tracker\\Controllers\\Trading212Controller.cs",
+              "RelativeToolTip": "Controllers\\Trading212Controller.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T21:58:24.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Dividens Tracker",
+              "DocumentMoniker": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Dividens Tracker\\Dividens Tracker.csproj",
+              "RelativeDocumentMoniker": "Dividens Tracker.csproj",
+              "ToolTip": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Dividens Tracker\\Dividens Tracker.csproj",
+              "RelativeToolTip": "Dividens Tracker.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-29T21:57:50.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Instrument.cs",
               "DocumentMoniker": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Dividens Tracker\\Models\\Instrument.cs",
               "RelativeDocumentMoniker": "Models\\Instrument.cs",
@@ -46,12 +80,11 @@
               "RelativeToolTip": "Models\\Instrument.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T22:27:41.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T22:27:41.349Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Dividens Tracker\\Models\\Account.cs",
               "RelativeDocumentMoniker": "Models\\Account.cs",
@@ -59,57 +92,56 @@
               "RelativeToolTip": "Models\\Account.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T22:12:09.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T22:12:09.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Trading212ApiService.cs",
               "DocumentMoniker": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Dividens Tracker\\Trading212ApiService.cs",
               "RelativeDocumentMoniker": "Trading212ApiService.cs",
               "ToolTip": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Dividens Tracker\\Trading212ApiService.cs",
               "RelativeToolTip": "Trading212ApiService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA4AAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T22:11:03.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Dividens Tracker\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
               "ToolTip": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Dividens Tracker\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T23:43:29.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Dividens Tracker\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
               "ToolTip": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Dividens Tracker\\Pages\\Index.cshtml",
               "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-11T23:43:26.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Dividens Tracker\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\mpwb1\\Desktop\\Razor-Pages\\Dividens Tracker\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T23:41:53.66Z",
               "EditorCaption": ""

@@ -1,7 +1,5 @@
-using Dividens_Tracker.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-
-namespace Dividens_Tracker.Pages;
 
 public class IndexModel : PageModel
 {
@@ -12,10 +10,45 @@ public class IndexModel : PageModel
         _apiService = apiService;
     }
 
-    public List<Instrument> Portfolio { get; set; } = new();
+    [BindProperty]
+    public string ApiKey { get; set; }
 
-    public async Task OnGetAsync()
+    public string Message { get; set; }
+    public bool IsSuccess { get; set; }
+
+    public void OnGet() { }
+
+    public async Task<IActionResult> OnPostAsync()
     {
-        Portfolio = await _apiService.GetPortfolioAsync();
+        if (string.IsNullOrWhiteSpace(ApiKey))
+        {
+            Message = "API key is required.";
+            IsSuccess = false;
+            return Page();
+        }
+
+        try
+        {
+            var account = await _apiService.GetAccountInfoAsync(ApiKey); // Validate key by calling account endpoint
+
+            if (account != null)
+            {
+                Message = "API key is valid!";
+                IsSuccess = true;
+                // Optionally: store the key for future use
+            }
+            else
+            {
+                Message = "API key is invalid.";
+                IsSuccess = false;
+            }
+        }
+        catch (Exception ex)
+        {
+            Message = "API key failed: " + ex.Message;
+            IsSuccess = false;
+        }
+
+        return Page();
     }
 }

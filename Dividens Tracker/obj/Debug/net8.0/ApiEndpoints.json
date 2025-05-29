@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "ContainingType": "Trading212Controller",
+    "Method": "GetAccount",
+    "RelativePath": "api/Trading212/account",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "apiKey",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Trading212Controller",
+    "Method": "GetPortfolio",
+    "RelativePath": "api/Trading212/portfolio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "apiKey",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

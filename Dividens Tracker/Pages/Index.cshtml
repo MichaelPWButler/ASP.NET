@@ -4,37 +4,19 @@
     ViewData["Title"] = "My Portfolio";
 }
 
-<h2>My Trading212 Portfolio</h2>
+<h2>Enter Your Trading212 API Key</h2>
 
-@if (Model.Portfolio?.Any() ?? false)
+<form method="post">
+    <div class="mb-2">
+        <input asp-for="ApiKey" class="form-control" placeholder="Paste your API key" />
+        <span asp-validation-for="ApiKey" class="text-danger"></span>
+    </div>
+    <button class="btn btn-primary" type="submit">Validate Key</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.Message))
 {
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>Ticker</th>
-                <th>Name</th>
-                <th>Quantity</th>
-                <th>Average Price</th>
-                <th>Current Price</th>
-                <th>PnL</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model.Portfolio)
-            {
-                <tr>
-                    <td>@item.Ticker</td>
-                    <td>@item.Name</td>
-                    <td>@item.Quantity</td>
-                    <td>@item.AveragePrice</td>
-                    <td>@item.CurrentPrice</td>
-                    <td>@item.PnL</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
-else
-{
-    <p>No portfolio data available.</p>
+    <div class="alert @(Model.IsSuccess ? "alert-success" : "alert-danger") mt-3">
+        @Model.Message
+    </div>
 }
