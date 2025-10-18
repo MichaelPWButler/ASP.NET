@@ -1,0 +1,42 @@
+﻿@page
+@model AirFryerConversion.Pages.IndexModel
+@{
+    Layout = "_Layout";
+}
+
+
+<button id="SwitchButton">Dark</button>
+
+<div class="main">
+
+    
+    <div id="title">
+        <h1>Convert Oven Recipes To Airfryer Instructions Instantly</h1>
+        <h2>Enter oven temperature and time, and we'll give you the air fryer equivalent.</h2>
+    </div>
+
+    <div class="form-container">
+        <form method="post">
+            <div>
+                <label>Oven Temperature</label>
+                <input asp-for="OvenTemp" type="number" required />
+            </div>
+            <div>
+                <label>Oven Time</label>
+                <input asp-for="OvenTime" type="number" required />
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    
+        @if (Model.ConversionDone)
+        {
+            <h3>Air Fryer Conversion:</h3>
+            <p>Temperature: @Model.AirFryerTemp °C</p>
+            <p>Time: @Model.AirFryerTime minutes</p>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script type="text/javascript" src="~/Pages/Index.cshtml.js"></script>
+}

@@ -1,0 +1,22 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/AirFryerConversion/css/site.7oshwfm8is.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7oshwfm8is"},{"Name":"integrity","Value":"sha256-mTjg1MXe566FdqgIdFP2LzaZlPsVU0jAz4IywIM8HRY="},{"Name":"label","Value":"_content/AirFryerConversion/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2703"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mTjg1MXe566FdqgIdFP2LzaZlPsVU0jAz4IywIM8HRY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 28 Sep 2025 18:35:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AirFryerConversion/css/site.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mTjg1MXe566FdqgIdFP2LzaZlPsVU0jAz4IywIM8HRY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2703"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mTjg1MXe566FdqgIdFP2LzaZlPsVU0jAz4IywIM8HRY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 28 Sep 2025 18:35:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AirFryerConversion/Pages/Index.cshtml.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Pages\Index.cshtml.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-smgiDfQX5i8cEVQoFHtYRf1v38th7I/IhEggc4MQMgo="},{"Name":"script-type","Value":"module"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"444"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022smgiDfQX5i8cEVQoFHtYRf1v38th7I/IhEggc4MQMgo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 28 Sep 2025 18:33:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

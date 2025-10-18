@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D26CE6E-6201-4FEA-B743-94ACD9BF6F0E}|AirFryerConversion.csproj|c:\\users\\mpwb1\\desktop\\airfryerconversion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D26CE6E-6201-4FEA-B743-94ACD9BF6F0E}|AirFryerConversion.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D26CE6E-6201-4FEA-B743-94ACD9BF6F0E}|AirFryerConversion.csproj|c:\\users\\mpwb1\\desktop\\airfryerconversion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8D26CE6E-6201-4FEA-B743-94ACD9BF6F0E}|AirFryerConversion.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D26CE6E-6201-4FEA-B743-94ACD9BF6F0E}|AirFryerConversion.csproj|c:\\users\\mpwb1\\desktop\\airfryerconversion\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8D26CE6E-6201-4FEA-B743-94ACD9BF6F0E}|AirFryerConversion.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\AirFryerConversion.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AirFryerConversion.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D26CE6E-6201-4FEA-B743-94ACD9BF6F0E}|AirFryerConversion.csproj|c:\\users\\mpwb1\\desktop\\airfryerconversion\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8D26CE6E-6201-4FEA-B743-94ACD9BF6F0E}|AirFryerConversion.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D26CE6E-6201-4FEA-B743-94ACD9BF6F0E}|AirFryerConversion.csproj|c:\\users\\mpwb1\\desktop\\airfryerconversion\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D26CE6E-6201-4FEA-B743-94ACD9BF6F0E}|AirFryerConversion.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D26CE6E-6201-4FEA-B743-94ACD9BF6F0E}|AirFryerConversion.csproj|c:\\users\\mpwb1\\desktop\\airfryerconversion\\pages\\index.cshtml.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8D26CE6E-6201-4FEA-B743-94ACD9BF6F0E}|AirFryerConversion.csproj|solutionrelative:pages\\index.cshtml.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D26CE6E-6201-4FEA-B743-94ACD9BF6F0E}|AirFryerConversion.csproj|c:\\users\\mpwb1\\desktop\\airfryerconversion\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D26CE6E-6201-4FEA-B743-94ACD9BF6F0E}|AirFryerConversion.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T20:15:12.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-18T20:15:12.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-18T20:15:12.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AirFryerConversion.csproj.user",
+              "DocumentMoniker": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\AirFryerConversion.csproj.user",
+              "RelativeDocumentMoniker": "AirFryerConversion.csproj.user",
+              "ToolTip": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\AirFryerConversion.csproj.user",
+              "RelativeToolTip": "AirFryerConversion.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2025-10-18T20:15:11.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-28T17:34:09.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-28T16:55:07.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-28T16:53:45.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml.js",
+              "DocumentMoniker": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\Pages\\Index.cshtml.js",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.js",
+              "ToolTip": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\Pages\\Index.cshtml.js",
+              "RelativeToolTip": "Pages\\Index.cshtml.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-28T16:50:06.729Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

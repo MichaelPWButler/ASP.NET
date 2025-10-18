@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\Pages\\Index.cshtml.js",
+      "PackagePath": "staticwebassets\\Pages\\Index.cshtml.js"
+    },
+    {
+      "Id": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AirFryerConversion.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AirFryerConversion.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AirFryerConversion.props",
+      "PackagePath": "build\\AirFryerConversion.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AirFryerConversion.props",
+      "PackagePath": "buildMultiTargeting\\AirFryerConversion.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AirFryerConversion.props",
+      "PackagePath": "buildTransitive\\AirFryerConversion.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

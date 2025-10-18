@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "Hash": "/xG68sF0meT/b3lB6ZFjk5xOjMGsY9bruJ9tPjpvI98=",
+  "Source": "AirFryerConversion",
+  "BasePath": "_content/AirFryerConversion",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AirFryerConversion\\wwwroot",
+      "Source": "AirFryerConversion",
+      "ContentRoot": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\wwwroot\\",
+      "BasePath": "_content/AirFryerConversion",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\Pages\\Index.cshtml.js",
+      "SourceId": "AirFryerConversion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\",
+      "BasePath": "_content/AirFryerConversion",
+      "RelativePath": "Pages/Index.cshtml.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mbh4snqpdx",
+      "Integrity": "smgiDfQX5i8cEVQoFHtYRf1v38th7I/IhEggc4MQMgo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "Pages\\Index.cshtml.js"
+    },
+    {
+      "Identity": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\wwwroot\\css\\site.css",
+      "SourceId": "AirFryerConversion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\wwwroot\\",
+      "BasePath": "_content/AirFryerConversion",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7oshwfm8is",
+      "Integrity": "mTjg1MXe566FdqgIdFP2LzaZlPsVU0jAz4IywIM8HRY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.7oshwfm8is.css",
+      "AssetFile": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2703"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mTjg1MXe566FdqgIdFP2LzaZlPsVU0jAz4IywIM8HRY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Sep 2025 18:35:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7oshwfm8is"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mTjg1MXe566FdqgIdFP2LzaZlPsVU0jAz4IywIM8HRY="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2703"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mTjg1MXe566FdqgIdFP2LzaZlPsVU0jAz4IywIM8HRY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Sep 2025 18:35:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mTjg1MXe566FdqgIdFP2LzaZlPsVU0jAz4IywIM8HRY="
+        }
+      ]
+    },
+    {
+      "Route": "Pages/Index.cshtml.js",
+      "AssetFile": "C:\\Users\\mpwb1\\Desktop\\AirFryerConversion\\Pages\\Index.cshtml.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "444"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"smgiDfQX5i8cEVQoFHtYRf1v38th7I/IhEggc4MQMgo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Sep 2025 18:33:41 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-smgiDfQX5i8cEVQoFHtYRf1v38th7I/IhEggc4MQMgo="
+        },
+        {
+          "Name": "script-type",
+          "Value": "module"
+        }
+      ]
+    }
+  ]
+}
