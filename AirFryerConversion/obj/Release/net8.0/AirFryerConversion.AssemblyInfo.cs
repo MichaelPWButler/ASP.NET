@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AirFryerConversion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+038676501c3f8d6c7f628fd1f55903540e370990")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd22c04e3adc32632f40d2a59cc09dbd4bf27eab")]
 [assembly: System.Reflection.AssemblyProductAttribute("AirFryerConversion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AirFryerConversion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
