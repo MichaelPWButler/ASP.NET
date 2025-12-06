@@ -1,2 +1,0 @@
-wwwroot\Data\Countries.json
-C:\Users\mpwb1\Desktop\MichaelPWButler\ASP.NET\LessOrMoreGame\wwwroot\Data\Countries.json
