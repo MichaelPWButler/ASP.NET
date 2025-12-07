@@ -1,70 +1,62 @@
-{
-  "Name": "Germany",
-  "ID": 1,
-  "CountryName": "Germany",
-  "Population": 83200000,
-  "FlagImgSrc": ""
-},
-{
-  "Name": "France",
-  "ID": 2,
-  "CountryName": "France",
-  "Population": 67800000,
-  "FlagImgSrc": ""
-},
-{
-  "Name": "Italy",
-  "ID": 3,
-  "CountryName": "Italy",
-  "Population": 59550000,
-  "FlagImgSrc": ""
-},
-{
-  "Name": "Spain",
-  "ID": 4,
-  "CountryName": "Spain",
-  "Population": 47450000,
-  "FlagImgSrc": ""
-},
-{
-  "Name": "Netherlands",
-  "ID": 5,
-  "CountryName": "Netherlands",
-  "Population": 17600000,
-  "FlagImgSrc": ""
-},
-{
-  "Name": "Poland",
-  "ID": 6,
-  "CountryName": "Poland",
-  "Population": 37950000,
-  "FlagImgSrc": ""
-},
-{
-  "Name": "Sweden",
-  "ID": 7,
-  "CountryName": "Sweden",
-  "Population": 10500000,
-  "FlagImgSrc": ""
-},
-{
-  "Name": "Belgium",
-  "ID": 8,
-  "CountryName": "Belgium",
-  "Population": 11600000,
-  "FlagImgSrc": ""
-},
-{
-  "Name": "Portugal",
-  "ID": 9,
-  "CountryName": "Portugal",
-  "Population": 10300000,
-  "FlagImgSrc": ""
-},
-{
-  "Name": "Greece",
-  "ID": 10,
-  "CountryName": "Greece",
-  "Population": 10350000,
-  "FlagImgSrc": ""
-}
+[
+  {
+    "ID": 1,
+    "Name": "Germany",
+    "Population": 83200000,
+    "FlagImgSrc": ""
+  },
+  {
+    "ID": 2,
+    "Name": "France",
+    "Population": 67800000,
+    "FlagImgSrc": ""
+  },
+  {
+    "ID": 3,
+    "Name": "Italy",
+    "Population": 59550000,
+    "FlagImgSrc": ""
+  },
+  {
+    "ID": 4,
+    "Name": "Spain",
+    "Population": 47450000,
+    "FlagImgSrc": ""
+  },
+  {
+    "ID": 5,
+    "Name": "Netherlands",
+    "Population": 17600000,
+    "FlagImgSrc": ""
+  },
+  {
+    "ID": 6,
+    "Name": "Poland",
+    "Population": 37950000,
+    "FlagImgSrc": ""
+  },
+  {
+    "ID": 7,
+    "Name": "Sweden",
+    "Population": 10500000,
+    "FlagImgSrc": ""
+  },
+  {
+    "ID": 8,
+    "Name": "Belgium",
+    "Population": 11600000,
+    "FlagImgSrc": ""
+  },
+  {
+    "ID": 9,
+    "Name": "Portugal",
+    "Population": 10300000,
+    "FlagImgSrc": ""
+  },
+  {
+    "ID": 10,
+    "Name": "Greece",
+    "Population": 10350000,
+    "FlagImgSrc": ""
+  }
+]
