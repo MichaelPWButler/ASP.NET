@@ -9,6 +9,7 @@ namespace LessOrMoreGame.Pages
     {
         private readonly ILogger<IndexModel> _logger;
         private readonly JsonFileCountryService _JsonFileCountryService;
+        private List<Country> AllCountries = [];
 
         public IndexModel(ILogger<IndexModel> logger,
             JsonFileCountryService jsonFileCountryService)
@@ -19,9 +20,16 @@ namespace LessOrMoreGame.Pages
 
         public void OnGet()
         {
-            Countries = _JsonFileCountryService.GetCountries();
+            Random _Random = new Random();
+            AllCountries = _JsonFileCountryService.GetCountries().ToList();
+
+            List<Country> _Country = AllCountries.OrderBy(country => _Random.Next()).Take(2).ToList();
+            Country1 = _Country[0];
+            Country2 = _Country[1];
+
         }
 
-        public IEnumerable<Country> Countries { get; private set; } = [];
+        public Country Country1 { get; set; }
+        public Country Country2 { get; set; }
     }
 }
