@@ -1,7 +1,10 @@
+using LessOrMoreGame.wwwroot.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddTransient<JsonFileCountryService>();
 
 var app = builder.Build();
 
