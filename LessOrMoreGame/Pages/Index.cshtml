@@ -6,7 +6,9 @@
     ViewData["Title"] = "Home page";
 }
 
-@foreach (Country country in Model.Countries)
-{
-    <h2>@country.Name</h2>
-}
+<div class="card">
+    @foreach (Country country in Model.Countries)
+    {
+        <h2>@country.Name</h2>
+    }
+</div>
