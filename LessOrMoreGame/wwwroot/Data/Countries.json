@@ -3,31 +3,31 @@
     "ID": 1,
     "Name": "Germany",
     "Population": 83200000,
-    "FlagImgSrc": ""
+    "FlagImgSrc": "Flags/Germany.svg"
   },
   {
     "ID": 2,
     "Name": "France",
     "Population": 67800000,
-    "FlagImgSrc": ""
+    "FlagImgSrc": "Flags/Germany.svg"
   },
   {
     "ID": 3,
     "Name": "Italy",
     "Population": 59550000,
-    "FlagImgSrc": ""
+    "FlagImgSrc": "Flags/Germany.svg"
   },
   {
     "ID": 4,
     "Name": "Spain",
     "Population": 47450000,
-    "FlagImgSrc": ""
+    "FlagImgSrc": "Flags/Germany.svg"
   },
   {
     "ID": 5,
     "Name": "Netherlands",
     "Population": 17600000,
-    "FlagImgSrc": ""
+    "FlagImgSrc": "Flags/Germany.svg"
   },
   {
     "ID": 6,
