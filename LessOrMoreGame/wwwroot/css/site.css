@@ -21,7 +21,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: greenyellow;
+    background-color: rgb(114 252 101 / 30%);
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s ease;
@@ -31,3 +31,16 @@
     opacity: 1;
     pointer-events: auto;
 }
+
+.tick {
+    display: block;
+    width: 200px;
+    height: 200px;
+    transform: scale(0);
+    transition: transform 0.3s ease;
+}
+
+.overlay.active .tick {
+    transform: scale(1); 
+}
+
