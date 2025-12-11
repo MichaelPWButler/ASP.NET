@@ -1,0 +1,16 @@
+﻿.country-column {
+    width: 25rem;
+    height: 18.75rem;
+}
+
+.country-img {
+    opacity: 0.4;
+}
+
+.zoom-hover:hover {
+    transform: scale(1.1);
+}
+
+.zoom-hover {
+    transition: transform 0.3s ease;
+}
