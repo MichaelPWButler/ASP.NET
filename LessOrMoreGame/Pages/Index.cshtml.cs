@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace LessOrMoreGame.Pages
 {
+   // [IgnoreAntiforgeryToken(Order = 10001)]
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
@@ -16,6 +17,16 @@ namespace LessOrMoreGame.Pages
         {
             _logger = logger;
             _JsonFileCountryService = jsonFileCountryService;
+        }
+
+        public class CardRequest
+        {
+            public int CardId { get; set; }
+        }
+
+        public IActionResult OnPostCheckCard([FromBody] CardRequest request)
+        {
+            return new JsonResult(true);
         }
 
         public void OnGet()
