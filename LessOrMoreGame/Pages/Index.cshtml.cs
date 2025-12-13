@@ -19,14 +19,9 @@ namespace LessOrMoreGame.Pages
             _JsonFileCountryService = jsonFileCountryService;
         }
 
-        public class CardRequest
+        public IActionResult OnPostCheckCard([FromBody] int request)
         {
-            public int CardId { get; set; }
-        }
-
-        public IActionResult OnPostCheckCard([FromBody] CardRequest request)
-        {
-            return new JsonResult(true);
+            return new JsonResult(false);
         }
 
         public void OnGet()

@@ -21,10 +21,17 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgb(114 252 101 / 30%);
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s ease;
+}
+
+.correct-overlay-background {
+    background-color: rgb(114 252 101 / 30%);
+}
+
+.wrong-overlay-background {
+    background-color: rgb(255 0 0 / 30%);
 }
 
 .overlay.active {
@@ -32,7 +39,7 @@
     pointer-events: auto;
 }
 
-.tick {
+.overlay-icon {
     display: block;
     width: 200px;
     height: 200px;
@@ -40,7 +47,7 @@
     transition: transform 0.3s ease;
 }
 
-.overlay.active .tick {
-    transform: scale(1); 
+.overlay.active .overlay-icon {
+    transform: scale(1);
 }
 

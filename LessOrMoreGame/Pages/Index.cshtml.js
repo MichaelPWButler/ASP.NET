@@ -1,40 +1,38 @@
 ﻿'use strict';
 
-const control_Country1 = document.getElementById('Country1');
-const control_Overlay = document.getElementById('overlay');
+const control_Country1 = document.getElementById('Country1'),
+    control_Country2 = document.getElementById('Country2'),
+    control_CorrectOverlay = document.getElementById('overlay-correct'),
+    control_WrongOverlay = document.getElementById('overlay-wrong');
 
 control_Country1.addEventListener('click', _checkCard);
+control_Country2.addEventListener('click', _checkCard);
 
 async function _checkCard() {
-    const cardId = 42; // replace with the actual integer you want to send
     const token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
 
-    try {
         const response = await fetch('/Index?handler=CheckCard', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json', 'Accept': 'application/json', 'RequestVerificationToken': token
             },
-            body: JSON.stringify({ cardId }) // wrap integer in object
+            body: JSON.stringify(12) 
         });
 
-        if (!response.ok) {
-            console.error('Server returned:', response.status);
-            return; // stop if server returns error
-        }
+    const isValid = await response.json();
+    _openOverlay(isValid)
+}
 
-        const isValid = await response.json();
-
-        if (isValid) {
-            control_Overlay.classList.add('active');
-            setTimeout(() => {
-                control_Overlay.classList.remove('active');
-            }, 1000);
-        } else {
-            console.warn('Card is not valid');
-        }
-
-    } catch (error) {
-        console.error('Fetch error:', error);
+function _openOverlay(isValid) {
+    if (isValid) {
+        control_CorrectOverlay.classList.add('active');
+        setTimeout(() => {
+            control_CorrectOverlay.classList.remove('active');
+        }, 1000);
+    } else {
+        control_WrongOverlay.classList.add('active');
+        setTimeout(() => {
+            control_WrongOverlay.classList.remove('active');
+        }, 1000);
     }
 }
