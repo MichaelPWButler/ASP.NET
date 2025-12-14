@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace LessOrMoreGame.Models
 {
-    public class Country
+    public class CountryModel
     {
         public int ID { get; set; }
         public string? Name { get; set; }
@@ -11,6 +11,6 @@ namespace LessOrMoreGame.Models
         [JsonPropertyName("FlagImgSrc")]
         public string? ImageSource { get; set; }
 
-        public override string ToString() => JsonSerializer.Serialize<Country>(this);
+        public override string ToString() => JsonSerializer.Serialize<CountryModel>(this);
     }
 }

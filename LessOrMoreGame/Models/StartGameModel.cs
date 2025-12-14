@@ -2,7 +2,7 @@
 {
     public class StartGameModel
     {
-        public Country Country1 { get; set; }
-        public Country Country2 { get; set; }
+        public CountryModel Country1 { get; set; }
+        public CountryModel Country2 { get; set; }
     }
 }

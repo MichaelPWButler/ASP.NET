@@ -19,7 +19,7 @@ namespace LessOrMoreGame.Pages
             _CountryService = countryService;
         }
 
-        public IActionResult OnPostCheckCard([FromBody] GuessModel request)
+        public IActionResult OnPostCheckCard([FromBody] CheckAnswerModel request)
         {
             return new JsonResult(false);
         }
@@ -33,7 +33,7 @@ namespace LessOrMoreGame.Pages
             return Page();
         }
 
-        public Country Country1 { get; set; }
-        public Country Country2 { get; set; }
+        public CountryModel Country1 { get; set; }
+        public CountryModel Country2 { get; set; }
     }
 }
