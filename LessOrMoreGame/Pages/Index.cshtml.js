@@ -5,19 +5,23 @@ const control_Country1 = document.getElementById('Country1'),
     control_CorrectOverlay = document.getElementById('overlay-correct'),
     control_WrongOverlay = document.getElementById('overlay-wrong');
 
-control_Country1.addEventListener('click', _checkCard);
-control_Country2.addEventListener('click', _checkCard);
+control_Country1.addEventListener('click', () => _checkCard(control_Country1.dataset.id, control_Country2.dataset.id));
+control_Country2.addEventListener('click', () => _checkCard(control_Country2.dataset.id, control_Country1.dataset.id));
 
-async function _checkCard() {
+async function _checkCard(idSelected, OtherId) {
     const token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
 
-        const response = await fetch('/Index?handler=CheckCard', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json', 'Accept': 'application/json', 'RequestVerificationToken': token
-            },
-            body: JSON.stringify(12) 
-        });
+    const response = await fetch('/Index?handler=CheckCard', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json', 'Accept': 'application/json', 'RequestVerificationToken': token
+        },
+        body: JSON.stringify(
+        {
+            CountrySelectedID: idSelected,
+            OtherCountryId: OtherId
+        }) 
+    });
 
     const isValid = await response.json();
     _openOverlay(isValid)
