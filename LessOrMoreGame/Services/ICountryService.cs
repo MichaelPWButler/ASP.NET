@@ -5,5 +5,6 @@ namespace LessOrMoreGame.wwwroot.Services
     public interface ICountryService
     {
         StartGameModel StartGame();
+        GuessModel Guess(CheckAnswerModel checkAnswerModel);
     }
 }

@@ -21,7 +21,13 @@ namespace LessOrMoreGame.Pages
 
         public IActionResult OnPostCheckCard([FromBody] CheckAnswerModel request)
         {
-            return new JsonResult(false);
+            GuessModel _CheckAnswer = _CountryService.Guess(request);
+
+            return new JsonResult(new 
+            { 
+                IsCorrect = _CheckAnswer.IsCorrect,
+                NewCountry = _CheckAnswer.NewCountry
+            });
         }
 
         public async Task<IActionResult> OnGetAsync()
