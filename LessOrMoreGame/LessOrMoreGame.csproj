@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Services\JsonFileCountryService.cs" />
+    <Content Include="Services\CountryService.cs" />
   </ItemGroup>
 
   <ItemGroup>

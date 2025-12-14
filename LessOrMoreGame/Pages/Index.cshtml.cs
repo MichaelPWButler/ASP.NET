@@ -2,6 +2,7 @@ using LessOrMoreGame.Models;
 using LessOrMoreGame.wwwroot.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Net.Http;
 
 namespace LessOrMoreGame.Pages
 {
@@ -9,14 +10,13 @@ namespace LessOrMoreGame.Pages
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
-        private readonly JsonFileCountryService _JsonFileCountryService;
-        private List<Country> AllCountries = [];
+        private readonly ICountryService _CountryService;
 
         public IndexModel(ILogger<IndexModel> logger,
-            JsonFileCountryService jsonFileCountryService)
+            ICountryService countryService)
         {
             _logger = logger;
-            _JsonFileCountryService = jsonFileCountryService;
+            _CountryService = countryService;
         }
 
         public IActionResult OnPostCheckCard([FromBody] int request)
@@ -24,15 +24,13 @@ namespace LessOrMoreGame.Pages
             return new JsonResult(false);
         }
 
-        public void OnGet()
+        public async Task<IActionResult> OnGetAsync()
         {
-            Random _Random = new Random();
-            AllCountries = _JsonFileCountryService.GetCountries().ToList();
+            StartGameModel _GameData = _CountryService.StartGame();
+            Country1 = _GameData.Country1;
+            Country2 = _GameData.Country2;
 
-            List<Country> _Country = AllCountries.OrderBy(country => _Random.Next()).Take(2).ToList();
-            Country1 = _Country[0];
-            Country2 = _Country[1];
-
+            return Page();
         }
 
         public Country Country1 { get; set; }

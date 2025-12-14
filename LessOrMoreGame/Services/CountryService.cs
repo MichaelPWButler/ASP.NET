@@ -1,14 +1,16 @@
 ﻿using LessOrMoreGame.Models;
 using Microsoft.AspNetCore.Hosting;
+using System;
+using System.Collections.Generic;
 using System.Text.Json;
 
 namespace LessOrMoreGame.wwwroot.Services
 {
-    public class JsonFileCountryService
+    public class CountryService : ICountryService
     {
         private IWebHostEnvironment WebHostEnvironment { get; }
 
-        public JsonFileCountryService(IWebHostEnvironment webHostEnvironment) 
+        public CountryService(IWebHostEnvironment webHostEnvironment) 
         {
             WebHostEnvironment = webHostEnvironment;
         }
@@ -18,7 +20,7 @@ namespace LessOrMoreGame.wwwroot.Services
             get{ return Path.Combine(WebHostEnvironment.WebRootPath, "Data", "Countries.json"); }
         }
 
-        public IEnumerable<Country> GetCountries()
+        private IEnumerable<Country> GetCountries()
         {
             StreamReader _Reader = File.OpenText(JsonFileName);
             IEnumerable<Country>? _Countries = new List<Country>();
@@ -30,6 +32,19 @@ namespace LessOrMoreGame.wwwroot.Services
                 });
 
             return _Countries ?? new List<Country>();
+        }
+
+        public StartGameModel StartGame()
+        {
+            StartGameModel _GameModel = new StartGameModel();
+            Random _Random = new Random();
+            IEnumerable<Country>? AllCountries = GetCountries();
+            
+            List<Country> _Country = AllCountries.OrderBy(country => _Random.Next()).Take(2).ToList();
+            _GameModel.Country1 = _Country[0];
+            _GameModel.Country2 = _Country[1];
+
+            return _GameModel;
         }
     }
 }
