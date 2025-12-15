@@ -40,8 +40,8 @@ function _updateCard(newCard, replaced) {
     title.textContent = newCard.name;
 }
 
-function _openOverlay(isValid) {
-    if (isValid) {
+function _openOverlay(isCorrect) {
+    if (isCorrect) {
         control_CorrectOverlay.classList.add('active');
         setTimeout(() => {
             control_CorrectOverlay.classList.remove('active');
