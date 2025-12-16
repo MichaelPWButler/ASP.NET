@@ -70,3 +70,10 @@
 .bounce{
     animation: 1s infinite alternate bounce;
 }
+
+.icon {
+    height: 250px;
+    width: 500px;
+    background-color: #1F3A5A;
+    margin-bottom: 75px;
+}
