@@ -51,3 +51,22 @@
     transform: scale(1);
 }
 
+.play-button {
+    height: 200px;
+    width: 400px;
+    border-radius: 25px;
+    border: 2px solid #1F3A5A;
+    background-color: #1F3A5A;
+    color: white;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+@keyframes bounce{
+    0% {transform: translateY(0);}
+    100% {transform: translateY(-50px);}
+}
+
+.bounce{
+    animation: 1s infinite alternate bounce;
+}
