@@ -72,8 +72,13 @@
 }
 
 .icon {
-    height: 250px;
-    width: 500px;
-    background-color: #1F3A5A;
+    border-radius: 25px;
     margin-bottom: 75px;
+}
+
+body {
+    background-image: url('/Images/background-image.svg');
+    background-size: cover; /* Scales to cover viewport */
+    background-position: center;
+    background-repeat: no-repeat;
 }
