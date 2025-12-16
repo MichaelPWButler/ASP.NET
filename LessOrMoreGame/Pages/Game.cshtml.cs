@@ -6,12 +6,12 @@ using System.Net.Http;
 
 namespace LessOrMoreGame.Pages
 {
-    public class IndexModel : PageModel
+    public class GameModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        private readonly ILogger<GameModel> _logger;
         private readonly ICountryService _CountryService;
 
-        public IndexModel(ILogger<IndexModel> logger,
+        public GameModel(ILogger<GameModel> logger,
             ICountryService countryService)
         {
             _logger = logger;
