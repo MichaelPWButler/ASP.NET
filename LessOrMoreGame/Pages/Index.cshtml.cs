@@ -6,7 +6,6 @@ using System.Net.Http;
 
 namespace LessOrMoreGame.Pages
 {
-   // [IgnoreAntiforgeryToken(Order = 10001)]
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
