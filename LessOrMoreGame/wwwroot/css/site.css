@@ -5,6 +5,7 @@
 
 .country-img {
     opacity: 0.4;
+    border-radius: 25px;
 }
 
 .zoom-hover:hover {
