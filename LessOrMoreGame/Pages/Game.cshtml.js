@@ -11,7 +11,7 @@ control_Country2.addEventListener('click', () => _checkCard(control_Country2.dat
 async function _checkCard(idSelected, OtherId, cardSelected) {
     const token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
 
-    const response = await fetch('/Index?handler=CheckCard', {
+    const response = await fetch('/Game?handler=CheckCard', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json', 'Accept': 'application/json', 'RequestVerificationToken': token
