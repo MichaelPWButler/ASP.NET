@@ -3,7 +3,10 @@
 const control_Country1 = document.getElementById('Country1'),
     control_Country2 = document.getElementById('Country2'),
     control_CorrectOverlay = document.getElementById('overlay-correct'),
+    control_Streak = document.getElementById('streak'),
     control_WrongOverlay = document.getElementById('overlay-wrong');
+
+let currentStreak = 0;
 
 control_Country1.addEventListener('click', () => _checkCard(control_Country1.dataset.id, control_Country2.dataset.id, "left"));
 control_Country2.addEventListener('click', () => _checkCard(control_Country2.dataset.id, control_Country1.dataset.id, "right"));
@@ -24,6 +27,7 @@ async function _checkCard(idSelected, OtherId, cardSelected) {
     });
 
     const result = await response.json();
+    _UpdateStreak(result.isCorrect)
     _openOverlay(result.isCorrect)
     _updateCard(result.newCountry, cardSelected)
 }
@@ -53,4 +57,14 @@ function _openOverlay(isCorrect) {
             control_WrongOverlay.classList.remove('active');
         }, 1000);
     }
+}
+
+function _UpdateStreak(isCorrect) {
+    if (isCorrect) {
+        currentStreak++;
+    }
+    else {
+        currentStreak = 0;
+    } 
+    control_Streak.textContent = "Your current streak is: " + currentStreak;
 }
