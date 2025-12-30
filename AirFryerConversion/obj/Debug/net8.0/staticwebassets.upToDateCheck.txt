@@ -1,2 +1,2 @@
-Pages\Index.cshtml.js
 wwwroot\css\site.css
+Pages\Index.cshtml.js
