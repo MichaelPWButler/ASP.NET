@@ -3,11 +3,10 @@
 This repository contains all of my ASP.NET projects. From small projects such as the air fryer conversion repository to ongoing projects such as the higher or lower game. I am always looking to improve on my projects, but also making things that i enjoy making. 
 Programming should always be fun.
 
-## Air Fryer Conversion
-This was a small project to learn more about CSS. It also solved a real-world problem for someone who always uses an air fryer. I learnt a lot about CSS in this project and implemented it through the use of themes in this project. The project containing a button to switch between LIGHT and DARK theme.
-
-## Screenshots
-### Dark Mode
-![alt text](https://github.com/MichaelPWButler/ASP.NET/blob/main/README/Images/AirFryerConversion/DARK.png)
-### Light Mode
-![alt text](https://github.com/MichaelPWButler/ASP.NET/blob/main/README/Images/AirFryerConversion/LIGHT.png)
+## Projects
+<ul>
+  <li>
+    <span style="font-size:50px;">🧑‍🍳</span>
+    <a href="https://github.com/MichaelPWButler/ASP.NET/tree/main/AirFryerConversion">Air Fryer Conversion</a>
+  </li>
+</ul>
