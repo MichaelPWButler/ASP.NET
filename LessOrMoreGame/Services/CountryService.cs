@@ -1,4 +1,5 @@
 ﻿using LessOrMoreGame.Models;
+using LessOrMoreGame.Models.Enums;
 using Microsoft.AspNetCore.Hosting;
 using System;
 using System.Collections.Generic;
@@ -51,6 +52,8 @@ namespace LessOrMoreGame.wwwroot.Services
             List<CountryModel> _Country = AllCountries.OrderBy(country => _Random.Next()).Take(2).ToList();
             _GameModel.Country1 = _Country[0];
             _GameModel.Country2 = _Country[1];
+
+            _GameModel.StatToAsk = (CountryStats)_Random.Next(1, 3);
 
             return _GameModel;
         }
