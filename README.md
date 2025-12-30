@@ -6,7 +6,11 @@ Programming should always be fun.
 ## Projects
 <ul>
   <li>
-    <span style="font-size:50px;">🧑‍🍳</span>
+    <span>🧑‍🍳</span>
     <a href="https://github.com/MichaelPWButler/ASP.NET/tree/main/AirFryerConversion">Air Fryer Conversion</a>
+  </li>
+  <li>
+    <span>🎮</span>
+    <a href="https://github.com/MichaelPWButler/ASP.NET/tree/main/LessOrMoreGame">Higher Lower Game</a>
   </li>
 </ul>
