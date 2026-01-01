@@ -6,6 +6,6 @@ namespace LessOrMoreGame.Models
     {
         public CountryModel Country1 { get; set; }
         public CountryModel Country2 { get; set; }
-        public string QuestionText { get; set; }
+        public CountryStat CountryStat { get; set; }
     }
 }

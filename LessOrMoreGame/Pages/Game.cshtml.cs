@@ -1,4 +1,5 @@
 using LessOrMoreGame.Models;
+using LessOrMoreGame.Models.Enums;
 using LessOrMoreGame.wwwroot.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -34,7 +35,7 @@ namespace LessOrMoreGame.Pages
             StartGameModel _GameData = _CountryService.StartGame();
             Country1 = _GameData.Country1;
             Country2 = _GameData.Country2;
-            QuestionText = _GameData.QuestionText;
+            QuestionText = _GameData.CountryStat.ToQuestionText();
 
             return Page();
         }

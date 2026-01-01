@@ -1,6 +1,6 @@
 ﻿namespace LessOrMoreGame.Models.Enums
 {
-    public enum CountryStats : byte
+    public enum CountryStat : byte
     {
         None = 0,
         Population = 1,
