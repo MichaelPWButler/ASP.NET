@@ -4,6 +4,7 @@ const control_Country1 = document.getElementById('Country1'),
     control_Country2 = document.getElementById('Country2'),
     control_CorrectOverlay = document.getElementById('overlay-correct'),
     control_Streak = document.getElementById('streak'),
+    control_QuestionStat = document.getElementById('question'),
     control_WrongOverlay = document.getElementById('overlay-wrong');
 
 let currentStreak = 0;
@@ -22,7 +23,8 @@ async function _checkCard(idSelected, OtherId, cardSelected) {
         body: JSON.stringify(
         {
             CountrySelectedID: idSelected,
-            OtherCountryId: OtherId
+            OtherCountryId: OtherId,
+            Stat: Number(control_QuestionStat.dataset.question)
         }) 
     });
 

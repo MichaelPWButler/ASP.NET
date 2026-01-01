@@ -35,7 +35,8 @@ namespace LessOrMoreGame.Pages
             StartGameModel _GameData = _CountryService.StartGame();
             Country1 = _GameData.Country1;
             Country2 = _GameData.Country2;
-            QuestionText = _GameData.CountryStat.ToQuestionText();
+            Stat = _GameData.CountryStat;
+            QuestionText = Stat.ToQuestionText();
 
             return Page();
         }
@@ -43,5 +44,6 @@ namespace LessOrMoreGame.Pages
         public CountryModel Country1 { get; private set; }
         public CountryModel Country2 { get; private set; }
         public string QuestionText { get; private set; }
+        public CountryStat Stat { get; private set; }
     }
 }
