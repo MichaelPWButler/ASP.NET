@@ -1,5 +1,6 @@
 ﻿using LessOrMoreGame.Models;
 using LessOrMoreGame.Models.Enums;
+using LessOrMoreGame.Pages;
 using Microsoft.AspNetCore.Hosting;
 using System;
 using System.Collections.Generic;
@@ -61,11 +62,25 @@ namespace LessOrMoreGame.wwwroot.Services
         public GuessModel Guess(CheckAnswerModel checkAnswerModel)
         {
             GuessModel _Guess = new GuessModel();
+            bool _IsCorrect;
 
             CountryModel _SelectedCountry = GetCountryById(checkAnswerModel.CountrySelectedID);
             CountryModel _OtherCountry = GetCountryById(checkAnswerModel.OtherCountryID);
 
-            _Guess.IsCorrect = _SelectedCountry.Population > _OtherCountry.Population;
+            switch(checkAnswerModel.Stat)
+            {
+                case(CountryStat.Population):
+                    _IsCorrect = _SelectedCountry.Population > _OtherCountry.Population;
+                    break;
+                case(CountryStat.LandArea):
+                    _IsCorrect = _SelectedCountry.LandArea > _OtherCountry.LandArea;
+                    break;
+                default:
+                    _IsCorrect = false;
+                    break;
+            }
+
+            _Guess.IsCorrect = _IsCorrect;
 
             IEnumerable<CountryModel> availableCountries = GetCountries()
                 .Where(country => country.ID != _SelectedCountry.ID && country.ID != _OtherCountry.ID);
@@ -74,6 +89,8 @@ namespace LessOrMoreGame.wwwroot.Services
             _Guess.NewCountry = availableCountries
                 .OrderBy(country => _Random.Next())
                 .FirstOrDefault();
+
+            _Guess.NewStat = ((CountryStat)_Random.Next(1, 3));
 
             return _Guess;
         }
