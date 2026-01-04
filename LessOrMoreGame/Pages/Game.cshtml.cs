@@ -26,7 +26,9 @@ namespace LessOrMoreGame.Pages
             return new JsonResult(new 
             { 
                 IsCorrect = _CheckAnswer.IsCorrect,
-                NewCountry = _CheckAnswer.NewCountry
+                NewCountry = _CheckAnswer.NewCountry,
+                NewQuestion = _CheckAnswer.NewStat.ToQuestionText(),
+                NewStat = _CheckAnswer.NewStat
             });
         }
 
