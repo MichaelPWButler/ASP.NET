@@ -3,6 +3,7 @@
 const control_Country1 = document.getElementById('Country1'),
     control_Country2 = document.getElementById('Country2'),
     control_CorrectOverlay = document.getElementById('overlay-correct'),
+    control_LivesText = document.getElementById('lives'),
     control_Streak = document.getElementById('streak'),
     control_QuestionStat = document.getElementById('question'),
     control_WrongOverlay = document.getElementById('overlay-wrong'),
@@ -30,7 +31,7 @@ async function _checkCard(idSelected, OtherId, cardSelected) {
     });
 
     const result = await response.json();
-    _UpdateText(result.isCorrect, result.newQuestion, result.newStat)
+    _UpdateText(result.isCorrect, result.newQuestion, result.newStat, result.newLives)
     _openOverlay(result.isCorrect)
     _updateCard(result.newCountry, cardSelected)
 }
@@ -62,7 +63,7 @@ function _openOverlay(isCorrect) {
     }
 }
 
-function _UpdateText(isCorrect, newQuestion, newStat) {
+function _UpdateText(isCorrect, newQuestion, newStat, newLives) {
     if (isCorrect) {
         currentStreak++;
     }
@@ -72,4 +73,5 @@ function _UpdateText(isCorrect, newQuestion, newStat) {
     control_Streak.textContent = "Your current streak is: " + currentStreak;
     control_QuestionText.textContent = newQuestion
     control_QuestionStat.dataset.question = newStat;
+    control_LivesText.textContent = "Number Of Lives: " + newLives;
 }

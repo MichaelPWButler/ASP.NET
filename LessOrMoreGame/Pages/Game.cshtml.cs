@@ -23,12 +23,15 @@ namespace LessOrMoreGame.Pages
         {
             GuessModel _CheckAnswer = _CountryService.Guess(request);
 
+            NumberOfLives = !_CheckAnswer.IsCorrect ? NumberOfLives - 1 : NumberOfLives;
+
             return new JsonResult(new 
             { 
                 IsCorrect = _CheckAnswer.IsCorrect,
                 NewCountry = _CheckAnswer.NewCountry,
                 NewQuestion = _CheckAnswer.NewStat.ToQuestionText(),
-                NewStat = _CheckAnswer.NewStat
+                NewStat = _CheckAnswer.NewStat,
+                NewLives = NumberOfLives
             });
         }
 
