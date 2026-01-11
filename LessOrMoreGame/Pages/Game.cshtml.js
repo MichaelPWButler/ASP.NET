@@ -3,6 +3,7 @@
 const control_Country1 = document.getElementById('Country1'),
     control_Country2 = document.getElementById('Country2'),
     control_CorrectOverlay = document.getElementById('overlay-correct'),
+    control_GameOverModal = document.getElementById('gameOverModal'),
     control_LivesText = document.getElementById('lives'),
     control_Streak = document.getElementById('streak'),
     control_QuestionStat = document.getElementById('question'),
@@ -23,17 +24,31 @@ async function _checkCard(idSelected, OtherId, cardSelected) {
             'Content-Type': 'application/json', 'Accept': 'application/json', 'RequestVerificationToken': token
         },
         body: JSON.stringify(
-        {
-            CountrySelectedID: idSelected,
-            OtherCountryId: OtherId,
-            Stat: Number(control_QuestionStat.dataset.question)
-        }) 
+            {
+                CountrySelectedID: idSelected,
+                OtherCountryId: OtherId,
+                Stat: Number(control_QuestionStat.dataset.question)
+            })
     });
 
     const result = await response.json();
-    _UpdateText(result.isCorrect, result.newQuestion, result.newStat, result.newLives)
-    _openOverlay(result.isCorrect)
-    _updateCard(result.newCountry, cardSelected)
+    if (result.newLives != 0)
+    { 
+        _UpdateText(result.isCorrect, result.newQuestion, result.newStat, result.newLives)
+        _openOverlay(result.isCorrect)
+        _updateCard(result.newCountry, cardSelected)
+        return;
+    }
+
+    _openGameOverModal()
+}
+
+function _openGameOverModal() {
+    var modal = new bootstrap.Modal(control_GameOverModal, {
+        backdrop: 'static',
+        keyboard: false
+    });
+    modal.show();
 }
 
 function _updateCard(newCard, replaced) {
