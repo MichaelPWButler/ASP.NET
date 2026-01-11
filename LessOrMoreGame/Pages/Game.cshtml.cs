@@ -52,8 +52,8 @@ namespace LessOrMoreGame.Pages
         public CountryStat Stat { get; private set; }
         public int NumberOfLives
         {
-            get => HttpContext.Session.GetInt32("Lives") ?? 3;
-            set => HttpContext.Session.SetInt32("Lives", value);
+            get => HttpContext.Session.GetInt32("NumberOfLives") ?? 3;
+            set => HttpContext.Session.SetInt32("NumberOfLives", value);
         }
     }
 }
