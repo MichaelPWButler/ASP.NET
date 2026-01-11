@@ -12,6 +12,8 @@ namespace LessOrMoreGame.Models.Enums
                     return "Which Country Has The Highest Population?";
                 case CountryStat.LandArea:
                     return "Which Country Has The Largest Land Area?";
+                case CountryStat.NumberOfBorders:
+                    return "Which Country Has The Most Borders?";
                 default:
                     return "Just pick one :)";
             }

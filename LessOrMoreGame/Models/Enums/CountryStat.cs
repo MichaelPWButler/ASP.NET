@@ -5,5 +5,6 @@
         None = 0,
         Population = 1,
         LandArea = 2,
+        NumberOfBorders = 3
     }
 }

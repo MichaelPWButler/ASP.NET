@@ -11,6 +11,7 @@ namespace LessOrMoreGame.Models
         [JsonPropertyName("FlagImgSrc")]
         public string? ImageSource { get; set; }
         public int LandArea { get; set; }
+        public int NumberOfBorders { get; set; }
 
         public override string ToString() => JsonSerializer.Serialize<CountryModel>(this);
     }

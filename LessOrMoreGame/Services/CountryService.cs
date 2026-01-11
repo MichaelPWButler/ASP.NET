@@ -54,7 +54,7 @@ namespace LessOrMoreGame.wwwroot.Services
             _GameModel.Country1 = _Country[0];
             _GameModel.Country2 = _Country[1];
 
-            _GameModel.CountryStat = ((CountryStat)_Random.Next(1, 3));
+            _GameModel.CountryStat = ((CountryStat)_Random.Next(1, 4));
 
             return _GameModel;
         }
@@ -69,11 +69,14 @@ namespace LessOrMoreGame.wwwroot.Services
 
             switch(checkAnswerModel.Stat)
             {
-                case(CountryStat.Population):
+                case CountryStat.Population:
                     _IsCorrect = _SelectedCountry.Population > _OtherCountry.Population;
                     break;
-                case(CountryStat.LandArea):
+                case CountryStat.LandArea:
                     _IsCorrect = _SelectedCountry.LandArea > _OtherCountry.LandArea;
+                    break;
+                case CountryStat.NumberOfBorders:
+                    _IsCorrect = _SelectedCountry.NumberOfBorders > _OtherCountry.NumberOfBorders;
                     break;
                 default:
                     _IsCorrect = false;
