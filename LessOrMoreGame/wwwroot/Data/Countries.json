@@ -4,69 +4,79 @@
     "Name": "Germany",
     "Population": 83200000,
     "LandArea": 357022,
-    "FlagImgSrc": "Flags/Germany.svg"
+    "FlagImgSrc": "Flags/Germany.svg",
+    "NumberOfBorders": 9
   },
   {
     "ID": 2,
     "Name": "France",
     "Population": 67800000,
     "LandArea": 551695,
-    "FlagImgSrc": "Flags/France.svg"
+    "FlagImgSrc": "Flags/France.svg",
+    "NumberOfBorders": 8
   },
   {
     "ID": 3,
     "Name": "Italy",
     "Population": 59550000,
     "LandArea": 301340,
-    "FlagImgSrc": "Flags/Italy.svg"
+    "FlagImgSrc": "Flags/Italy.svg",
+    "NumberOfBorders": 6
   },
   {
     "ID": 4,
     "Name": "Spain",
     "Population": 47450000,
     "LandArea": 505990,
-    "FlagImgSrc": "Flags/Spain.svg"
+    "FlagImgSrc": "Flags/Spain.svg",
+    "NumberOfBorders": 5
   },
   {
     "ID": 5,
     "Name": "Netherlands",
     "Population": 17600000,
     "LandArea": 41543,
-    "FlagImgSrc": "Flags/Netherlands.svg"
+    "FlagImgSrc": "Flags/Netherlands.svg",
+    "NumberOfBorders": 2
   },
   {
     "ID": 6,
     "Name": "Poland",
     "Population": 37950000,
     "LandArea": 312696,
-    "FlagImgSrc": "Flags/Poland.svg"
+    "FlagImgSrc": "Flags/Poland.svg",
+    "NumberOfBorders": 7
   },
   {
     "ID": 7,
     "Name": "Sweden",
     "Population": 10500000,
     "LandArea": 450295,
-    "FlagImgSrc": "Flags/Sweden.svg"
+    "FlagImgSrc": "Flags/Sweden.svg",
+    "NumberOfBorders": 2
   },
   {
     "ID": 8,
     "Name": "Belgium",
     "Population": 11600000,
     "LandArea": 30528,
-    "FlagImgSrc": "Flags/Belgium.svg"
+    "FlagImgSrc": "Flags/Belgium.svg",
+    "NumberOfBorders": 4
   },
   {
     "ID": 9,
     "Name": "Portugal",
     "Population": 10300000,
     "LandArea": 92212,
-    "FlagImgSrc": "Flags/Portugal.svg"
+    "FlagImgSrc": "Flags/Portugal.svg",
+    "NumberOfBorders": 1
   },
   {
     "ID": 10,
     "Name": "Greece",
     "Population": 10350000,
     "LandArea": 131957,
-    "FlagImgSrc": "Flags/Greece.svg"
+    "FlagImgSrc": "Flags/Greece.svg",
+    "NumberOfBorders": 4
   }
 ]
