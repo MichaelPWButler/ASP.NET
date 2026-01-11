@@ -47,5 +47,6 @@ namespace LessOrMoreGame.Pages
         public CountryModel Country2 { get; private set; }
         public string QuestionText { get; private set; }
         public CountryStat Stat { get; private set; }
+        public int NumberOfLives { get; private set; } = 3;
     }
 }
