@@ -40,6 +40,7 @@ async function _checkCard(idSelected, OtherId, cardSelected) {
         return;
     }
 
+    _openOverlay(false)
     _openGameOverModal()
 }
 
