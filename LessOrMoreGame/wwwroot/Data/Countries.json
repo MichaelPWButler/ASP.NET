@@ -78,5 +78,45 @@
     "LandArea": 131957,
     "FlagImgSrc": "Flags/Greece.svg",
     "NumberOfBorders": 4
+  },
+  {
+    "ID": 11,
+    "Name": "Austria",
+    "Population": 9100000,
+    "LandArea": 83879,
+    "FlagImgSrc": "Flags/Austria.svg",
+    "NumberOfBorders": 8
+  },
+  {
+    "ID": 12,
+    "Name": "Switzerland",
+    "Population": 8800000,
+    "LandArea": 41285,
+    "FlagImgSrc": "Flags/Switzerland.svg",
+    "NumberOfBorders": 5
+  },
+  {
+    "ID": 13,
+    "Name": "Denmark",
+    "Population": 5900000,
+    "LandArea": 42933,
+    "FlagImgSrc": "Flags/Denmark.svg",
+    "NumberOfBorders": 1
+  },
+  {
+    "ID": 14,
+    "Name": "Czech Republic",
+    "Population": 10800000,
+    "LandArea": 78871,
+    "FlagImgSrc": "Flags/CzechRepublic.svg",
+    "NumberOfBorders": 4
+  },
+  {
+    "ID": 15,
+    "Name": "Finland",
+    "Population": 5600000,
+    "LandArea": 338455,
+    "FlagImgSrc": "Flags/Finland.svg",
+    "NumberOfBorders": 3
   }
 ]
