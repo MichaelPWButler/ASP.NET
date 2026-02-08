@@ -4,15 +4,11 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-	<Version>2.0.0</Version>
+	<Version>2.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <Content Include="Services\CountryService.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\Data\" />
   </ItemGroup>
 
 </Project>
