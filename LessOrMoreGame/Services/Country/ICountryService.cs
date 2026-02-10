@@ -1,6 +1,6 @@
 ﻿using LessOrMoreGame.Models;
 
-namespace LessOrMoreGame.wwwroot.Services
+namespace LessOrMoreGame.Services.Country
 {
     public interface ICountryService
     {

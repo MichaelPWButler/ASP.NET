@@ -1,6 +1,6 @@
 using LessOrMoreGame.Models;
 using LessOrMoreGame.Models.Enums;
-using LessOrMoreGame.wwwroot.Services;
+using LessOrMoreGame.Services.Country;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Net.Http;

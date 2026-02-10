@@ -1,4 +1,5 @@
-using LessOrMoreGame.wwwroot.Services;
+using LessOrMoreGame.Services.Country;
+using LessOrMoreGame.wwwroot.Services.Country;
 
 var builder = WebApplication.CreateBuilder(args);
 

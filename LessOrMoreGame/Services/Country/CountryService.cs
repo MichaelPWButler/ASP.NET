@@ -1,13 +1,14 @@
 ﻿using LessOrMoreGame.Models;
 using LessOrMoreGame.Models.Enums;
 using LessOrMoreGame.Pages;
+using LessOrMoreGame.Services.Country;
 using Microsoft.AspNetCore.Hosting;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.Metrics;
 using System.Text.Json;
 
-namespace LessOrMoreGame.wwwroot.Services
+namespace LessOrMoreGame.wwwroot.Services.Country
 {
     public class CountryService : ICountryService
     {
