@@ -1,4 +1,5 @@
 using LessOrMoreGame.Services.Country;
+using LessOrMoreGame.Services.Leaderboard;
 using LessOrMoreGame.wwwroot.Services.Country;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddScoped<ICountryService, CountryService>();
+builder.Services.AddScoped<ILeaderboardService, LeaderboardService>();
 
 builder.Services.AddDistributedMemoryCache();
 

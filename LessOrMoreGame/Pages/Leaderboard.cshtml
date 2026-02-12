@@ -1,4 +1,27 @@
 ﻿@page
+@using LessOrMoreGame.Models
 @model LessOrMoreGame.Pages.LeaderboardModel
 @{
 }
+
+<div class="container-fluid d-flex flex-column justify-content-center align-items-center" style="height: 100vh;">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int position = 0; position < @Model._Leaderboard.Count(); position++)
+            {
+                <tr>
+                    <th scope="row">@(position+1)</th>
+                    <td>@Model._Leaderboard[position].Name</td>
+                    <td>@Model._Leaderboard[position].Score</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
