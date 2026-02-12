@@ -95,3 +95,17 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+#back-button {
+    position: fixed; /* stays in corner even when scrolling */
+    top: 16px;
+    left: 16px;
+    padding: 10px 14px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1000; /* keeps it above other elements */
+}
