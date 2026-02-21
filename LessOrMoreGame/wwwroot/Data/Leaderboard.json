@@ -1,6 +1,18 @@
-﻿[
+[
   {
-    "Name": "Michael",
-    "Score": 20
+    "Score": 20,
+    "Name": "Michael"
+  },
+  {
+    "Score": 1,
+    "Name": "Bob"
+  },
+  {
+    "Score": 1,
+    "Name": "Bob"
+  },
+  {
+    "Score": 1,
+    "Name": "Bob"
   }
 ]

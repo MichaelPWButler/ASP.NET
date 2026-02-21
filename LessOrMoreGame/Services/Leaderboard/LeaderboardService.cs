@@ -19,16 +19,36 @@ namespace LessOrMoreGame.Services.Leaderboard
 
         public IEnumerable<LeaderboardModel> GetLeaderboard()
         {
-            StreamReader _Reader = File.OpenText(JsonFileName);
             IEnumerable<LeaderboardModel>? _Leaderboard = new List<LeaderboardModel>();
 
-            _Leaderboard = JsonSerializer.Deserialize<LeaderboardModel[]>(_Reader.ReadToEnd(),
+            _Leaderboard = JsonSerializer.Deserialize<LeaderboardModel[]>(File.ReadAllText(JsonFileName),
             new JsonSerializerOptions
             {
                 PropertyNameCaseInsensitive = true,
-            }).OrderBy(leaderboard => leaderboard.Score);
+            }).OrderByDescending(leaderboard => leaderboard.Score);
 
             return _Leaderboard ?? new List<LeaderboardModel>();
+        }
+
+        public void AddToLeaderBoard(LeaderboardModel model)
+        {
+            IEnumerable<LeaderboardModel>? _Leaderboard = new List<LeaderboardModel>();
+
+            _Leaderboard = JsonSerializer.Deserialize<LeaderboardModel[]>(File.ReadAllText(JsonFileName),
+            new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+            });
+
+            _Leaderboard = _Leaderboard.Append(model);
+
+            string _Update = JsonSerializer.Serialize(_Leaderboard,
+            new JsonSerializerOptions
+            {
+                WriteIndented = true 
+            });
+
+            File.WriteAllText(JsonFileName, _Update);
         }
     }
 }

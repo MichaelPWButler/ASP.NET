@@ -5,5 +5,6 @@ namespace LessOrMoreGame.Services.Leaderboard
     public interface ILeaderboardService
     {
         IEnumerable<LeaderboardModel> GetLeaderboard();
+        void AddToLeaderBoard(LeaderboardModel model);
     }
 }
