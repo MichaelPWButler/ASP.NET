@@ -1,6 +1,7 @@
 using LessOrMoreGame.Models;
 using LessOrMoreGame.Models.Enums;
 using LessOrMoreGame.Services.Country;
+using LessOrMoreGame.Services.Leaderboard;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -10,12 +11,15 @@ namespace LessOrMoreGame.Pages
     {
         private readonly ILogger<GameModel> _logger;
         private readonly ICountryService _CountryService;
+        private readonly ILeaderboardService _LeaderboardService;
 
         public GameModel(ILogger<GameModel> logger,
-            ICountryService countryService)
+            ICountryService countryService,
+            ILeaderboardService leaderboardService)
         {
             _logger = logger;
             _CountryService = countryService;
+            _LeaderboardService = leaderboardService;
         }
 
         public IActionResult OnPostCheckCard([FromBody] CheckAnswerModel request)
@@ -32,6 +36,17 @@ namespace LessOrMoreGame.Pages
                 NewStat = _CheckAnswer.NewStat,
                 NewLives = NumberOfLives
             });
+        }
+
+        public IActionResult OnPostSubmitScore([FromBody]SubmitScoreModel scoreModel)
+        {
+            _LeaderboardService.AddToLeaderBoard(new()
+            {
+                Name = scoreModel.Name,
+                Score = scoreModel.Score,
+            });
+
+            return new JsonResult(new { redirectUrl = "/" });
         }
 
         public async Task<IActionResult> OnGetAsync()

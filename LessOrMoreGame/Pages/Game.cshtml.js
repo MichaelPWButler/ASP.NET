@@ -9,7 +9,9 @@ const control_Country1 = document.getElementById('Country1'),
     control_QuestionStat = document.getElementById('question'),
     control_WrongOverlay = document.getElementById('overlay-wrong'),
     control_QuestionText = document.getElementById('questionText'),
-    control_submitScoreModal = document.getElementById('submitScoreModal');
+    control_submitScoreModal = document.getElementById('submitScoreModal'),
+    control_submitScoreButton = document.getElementById('submitScoreBtn'),
+    control_submiScoreName = document.getElementById('playerName');
 
 let currentStreak = 0;
 let maxStreak = 0;
@@ -20,6 +22,29 @@ control_Country2.addEventListener('click', () => _checkCard(control_Country2.dat
 control_submitScoreModal.addEventListener('show.bs.modal', function () {
     document.getElementById('playerScore').textContent = maxStreak;
 });
+
+control_submitScoreButton.addEventListener('click', () => _SubmitScore());
+
+async function _SubmitScore() {
+    const token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
+
+    const response = await fetch('/Game?handler=SubmitScore', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json', 'Accept': 'application/json', 'RequestVerificationToken': token
+        },
+        body: JSON.stringify(
+            {
+                Score: maxStreak,
+                Name: control_submiScoreName.value,
+            })
+    });
+
+    const result = await response.json();
+    if (result && result.redirectUrl) {
+        window.location.href = result.redirectUrl;
+    }
+}
 
 async function _checkCard(idSelected, OtherId, cardSelected) {
     const token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
