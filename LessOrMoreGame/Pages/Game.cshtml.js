@@ -8,12 +8,18 @@ const control_Country1 = document.getElementById('Country1'),
     control_Streak = document.getElementById('streak'),
     control_QuestionStat = document.getElementById('question'),
     control_WrongOverlay = document.getElementById('overlay-wrong'),
-    control_QuestionText = document.getElementById('questionText');
+    control_QuestionText = document.getElementById('questionText'),
+    control_submitScoreModal = document.getElementById('submitScoreModal');
 
 let currentStreak = 0;
+let maxStreak = 0;
 
 control_Country1.addEventListener('click', () => _checkCard(control_Country1.dataset.id, control_Country2.dataset.id, "left"));
 control_Country2.addEventListener('click', () => _checkCard(control_Country2.dataset.id, control_Country1.dataset.id, "right"));
+
+control_submitScoreModal.addEventListener('show.bs.modal', function () {
+    document.getElementById('playerScore').textContent = maxStreak;
+});
 
 async function _checkCard(idSelected, OtherId, cardSelected) {
     const token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
@@ -86,6 +92,10 @@ function _UpdateText(isCorrect, newQuestion, newStat, newLives) {
     else {
         currentStreak = 0;
     } 
+    if (currentStreak > maxStreak) {
+        maxStreak = currentStreak;
+    }
+
     control_Streak.textContent = "Your current streak is: " + currentStreak;
     control_QuestionText.textContent = newQuestion
     control_QuestionStat.dataset.question = newStat;
