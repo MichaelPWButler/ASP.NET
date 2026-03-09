@@ -3,7 +3,6 @@ using LessOrMoreGame.Models.Enums;
 using LessOrMoreGame.Services.Country;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.Net.Http;
 
 namespace LessOrMoreGame.Pages
 {
@@ -42,6 +41,7 @@ namespace LessOrMoreGame.Pages
             Country2 = _GameData.Country2;
             Stat = _GameData.CountryStat;
             QuestionText = Stat.ToQuestionText();
+            NumberOfLives = 3;
 
             return Page();
         }
