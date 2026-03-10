@@ -13,3 +13,11 @@ In this project, I learnt more about Razor Pages, creating services, using JSON 
  ### V1 Demo
 https://github.com/user-attachments/assets/1fc94b23-477c-493d-b2bc-d71f81cf68c0
 
+### V2 Additions:
+<ul>
+  <li>More Countries Added</li>
+  <li>More Question Types Added</li>
+  <li>Lives System</li>
+  <li>Game Over Mechanic</li>
+  <li>Leaderboard Mechanic</li>
+ </ul>
