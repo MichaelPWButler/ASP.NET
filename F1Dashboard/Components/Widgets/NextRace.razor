@@ -1,0 +1,9 @@
+﻿@inject IDataService DataService
+<h3>NextRace</h3>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        var races =  DataService.GetNextRace();
+    }
+}

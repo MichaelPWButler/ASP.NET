@@ -1,10 +1,15 @@
 using F1Dashboard.Components;
+using F1Dashboard.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
+builder.Services.AddHttpClient();
+
+builder.Services.AddScoped<IDataService, DataService>();
 
 var app = builder.Build();
 

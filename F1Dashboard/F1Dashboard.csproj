@@ -7,4 +7,8 @@
     <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="Models\NextRaceModel.cs" />
+  </ItemGroup>
+
 </Project>
