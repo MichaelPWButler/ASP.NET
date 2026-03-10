@@ -21,3 +21,7 @@ https://github.com/user-attachments/assets/1fc94b23-477c-493d-b2bc-d71f81cf68c0
   <li>Game Over Mechanic</li>
   <li>Leaderboard Mechanic</li>
  </ul>
+
+ ### V2 Demo
+https://github.com/user-attachments/assets/111f1f17-f255-4ef4-afa3-d9788bbf2c53
+
