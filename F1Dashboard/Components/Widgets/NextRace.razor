@@ -1,9 +1,22 @@
-﻿@inject IDataService DataService
-<h3>NextRace</h3>
+﻿@using F1Dashboard.Models
+@inject IDataService DataService
+
+<div class="card">
+    <h3>Next GP:</h3>
+    <div class="flag-img">
+        <img src="@FlagURL"/>
+    </div>
+    <h3>@Title</h3> 
+</div>
 
 @code {
+    public string Title;
+    public string FlagURL;
+
     protected override async Task OnInitializedAsync()
     {
-        var races =  DataService.GetNextRace();
+        NextRaceModel _NextRace =  DataService.GetNextRace();
+        Title = $"{_NextRace.Country} - {_NextRace.Track}";
+        FlagURL = $"https://flagcdn.io/{_NextRace.CountryCode}.svg";
     }
 }

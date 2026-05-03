@@ -2,132 +2,154 @@
   {
     "round": 1,
     "country": "Australia",
+    "countryCode": "au",
     "track": "Melbourne",
     "date": "2026-03-08"
   },
   {
     "round": 2,
     "country": "China",
+    "countryCode": "cn",
     "track": "Shanghai",
     "date": "2026-03-15"
   },
   {
     "round": 3,
     "country": "Japan",
+    "countryCode": "jp",
     "track": "Suzuka",
     "date": "2026-03-29"
   },
   {
     "round": 4,
     "country": "USA",
+    "countryCode": "us",
     "track": "Miami",
     "date": "2026-05-03"
   },
   {
     "round": 5,
     "country": "Canada",
+    "countryCode": "ca",
     "track": "Montreal",
     "date": "2026-05-24"
   },
   {
     "round": 6,
     "country": "Monaco",
+    "countryCode": "mc",
     "track": "Monte Carlo",
     "date": "2026-06-07"
   },
   {
     "round": 7,
     "country": "Spain",
+    "countryCode": "es",
     "track": "Barcelona",
     "date": "2026-06-14"
   },
   {
     "round": 8,
     "country": "Austria",
+    "countryCode": "at",
     "track": "Spielberg",
     "date": "2026-06-28"
   },
   {
     "round": 9,
     "country": "UK",
+    "countryCode": "gb",
     "track": "Silverstone",
     "date": "2026-07-05"
   },
   {
     "round": 10,
     "country": "Belgium",
+    "countryCode": "be",
     "track": "Spa",
     "date": "2026-07-19"
   },
   {
     "round": 11,
     "country": "Hungary",
+    "countryCode": "hu",
     "track": "Budapest",
     "date": "2026-07-26"
   },
   {
     "round": 12,
     "country": "Netherlands",
+    "countryCode": "nl",
     "track": "Zandvoort",
     "date": "2026-08-23"
   },
   {
     "round": 13,
     "country": "Italy",
+    "countryCode": "it",
     "track": "Monza",
     "date": "2026-09-06"
   },
   {
     "round": 14,
     "country": "Spain",
+    "countryCode": "es",
     "track": "Madrid",
     "date": "2026-09-13"
   },
   {
     "round": 15,
     "country": "Azerbaijan",
+    "countryCode": "az",
     "track": "Baku",
     "date": "2026-09-26"
   },
   {
     "round": 16,
     "country": "Singapore",
+    "countryCode": "sg",
     "track": "Marina Bay",
     "date": "2026-10-11"
   },
   {
     "round": 17,
     "country": "USA",
+    "countryCode": "us",
     "track": "Austin",
     "date": "2026-10-25"
   },
   {
     "round": 18,
     "country": "Mexico",
+    "countryCode": "mx",
     "track": "Mexico City",
     "date": "2026-11-01"
   },
   {
     "round": 19,
     "country": "Brazil",
+    "countryCode": "br",
     "track": "São Paulo",
     "date": "2026-11-08"
   },
   {
     "round": 20,
     "country": "USA",
+    "countryCode": "us",
     "track": "Las Vegas",
     "date": "2026-11-22"
   },
   {
     "round": 21,
     "country": "Qatar",
+    "countryCode": "qa",
     "track": "Lusail",
     "date": "2026-11-29"
   },
   {
     "round": 22,
     "country": "UAE",
+    "countryCode": "ae",
     "track": "Abu Dhabi",
     "date": "2026-12-06"
   }
