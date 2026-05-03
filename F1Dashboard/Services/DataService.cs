@@ -13,7 +13,7 @@ namespace F1Dashboard.Services
 
         public NextRaceModel GetNextRace()
         {
-            var _X = _Client.GetFromJsonAsync<NextRaceModel>("https://api.jolpi.ca/ergast/f1/2026/races/").Result;
+            NextRaceModel _X = _Client.GetFromJsonAsync<NextRaceModel>("https://api.jolpi.ca/ergast/f1/2026/races/").Result;
             return new NextRaceModel();
         }
     }
