@@ -5,5 +5,7 @@ namespace F1Dashboard.Services
     public interface IDataService
     {
         NextRaceModel GetNextRace();
+
+        Task<DriverModel> GetDriversLeaderAsync();
     }
 }

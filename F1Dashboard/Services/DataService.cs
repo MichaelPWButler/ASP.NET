@@ -1,5 +1,7 @@
 ﻿using F1Dashboard.Models;
 using System.Text.Json;
+using static System.Net.WebRequestMethods;
+using File = System.IO.File;
 
 namespace F1Dashboard.Services
 {
@@ -34,6 +36,31 @@ namespace F1Dashboard.Services
                 .OrderBy(race => race.Date).FirstOrDefault() ?? new NextRaceModel();
 
             return _NextRace;
+        }
+
+        public async Task<DriverModel> GetDriversLeaderAsync()
+        {
+            var json = await _Client.GetStringAsync("https://api.jolpi.ca/ergast/f1/2026/driverstandings/");
+
+            using var doc = JsonDocument.Parse(json);
+
+            var root = doc.RootElement;
+
+            var standings = root
+                .GetProperty("MRData")
+                .GetProperty("StandingsTable")
+                .GetProperty("StandingsLists")[0]
+                .GetProperty("DriverStandings")
+                .EnumerateArray()
+                .FirstOrDefault();
+
+            DriverModel Driver = new DriverModel()
+            {
+                FamilyName = standings.GetProperty("Driver").GetProperty("familyName").GetString() ?? "",
+                GivenName = standings.GetProperty("Driver").GetProperty("givenName").GetString() ?? ""
+            };
+
+            return Driver;
         }
     }
 }

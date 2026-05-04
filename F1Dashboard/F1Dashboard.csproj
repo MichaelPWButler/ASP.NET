@@ -11,4 +11,8 @@
     <Content Include="Models\NextRaceModel.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Fonts\" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,17 @@
+﻿@using F1Dashboard.Models
+@inject IDataService DataService
+
+@if (_Driver != null)
+{
+    <h3>@_Driver.FamilyName</h3>
+}
+
+
+@code {
+    public DriverModel? _Driver;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _Driver = await DataService.GetDriversLeaderAsync();
+    }
+}
