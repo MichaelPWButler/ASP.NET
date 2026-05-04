@@ -2,21 +2,19 @@
 @inject IDataService DataService
 
 <div class="card">
-    <h3>Next GP:</h3>
+    <h3>Next GP</h3>
     <div class="flag-img">
-        <img src="@FlagURL"/>
+        <img src="https://flagcdn.io/@(_NextRace.CountryCode).svg" />
     </div>
-    <h3>@Title</h3> 
+    <h3>@_NextRace.Country</h3>
+    <p>@_NextRace.Date.ToString("dd MMMM yyyy")</p>
 </div>
 
 @code {
-    public string Title;
-    public string FlagURL;
+    public NextRaceModel? _NextRace;
 
     protected override async Task OnInitializedAsync()
     {
-        NextRaceModel _NextRace =  DataService.GetNextRace();
-        Title = $"{_NextRace.Country} - {_NextRace.Track}";
-        FlagURL = $"https://flagcdn.io/{_NextRace.CountryCode}.svg";
+        _NextRace = DataService.GetNextRace();
     }
 }

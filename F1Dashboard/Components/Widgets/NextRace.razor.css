@@ -1,8 +1,8 @@
 ﻿.card {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     background-color: #262626;
     display: flex;
     justify-content: center;
@@ -16,6 +16,7 @@
     border-radius: 50%;
     border: 2px solid white;
     overflow: hidden;
+    margin: 10px;
 }
 
 .flag-img img {
