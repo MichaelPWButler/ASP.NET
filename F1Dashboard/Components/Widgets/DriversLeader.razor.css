@@ -10,19 +10,20 @@
     flex-direction: column;
     margin-top: 5px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
-.flag-img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 2px solid white;
+.driver-headshot {
+    width: 150px;
+    height: 150px;
     overflow: hidden;
-    margin: 10px;
+    border-radius: 50%;
+    margin-bottom: 5px;
 }
 
-.flag-img img {
+.driver-headshot img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center 1%;
 }

@@ -56,8 +56,8 @@ namespace F1Dashboard.Services
 
             DriverModel Driver = new DriverModel()
             {
-                FamilyName = standings.GetProperty("Driver").GetProperty("familyName").GetString() ?? "",
-                GivenName = standings.GetProperty("Driver").GetProperty("givenName").GetString() ?? ""
+                FamilyName = standings.GetProperty("Driver").GetProperty("familyName").GetString()?.ToLower() ?? "",
+                GivenName = standings.GetProperty("Driver").GetProperty("givenName").GetString()?.ToLower() ?? ""
             };
 
             return Driver;

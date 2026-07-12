@@ -3,7 +3,13 @@
 
 @if (_Driver != null)
 {
-    <h3>@_Driver.FamilyName</h3>
+    <div class="card">
+        <div class="driver-headshot">
+            <img src="DriverImages/@(_Driver.FamilyName).webp" title="@(_Driver.GivenName) @(_Driver.FamilyName)" />
+        </div>
+
+        <h3>Championship Leader</h3>
+    </div> 
 }
 
 
