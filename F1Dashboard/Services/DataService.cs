@@ -62,5 +62,26 @@ namespace F1Dashboard.Services
 
             return Driver;
         }
+
+        public async Task<ConstructorModel> GetConstructorsLeaderAsync()
+        {
+            var json = await _Client.GetStringAsync("https://api.jolpi.ca/ergast/f1/2026/constructorstandings/");
+
+            using var doc = JsonDocument.Parse(json);
+            var root = doc.RootElement;
+
+            var standings = root
+                .GetProperty("MRData")
+                .GetProperty("StandingsTable")
+                .GetProperty("StandingsLists")[0]
+                .GetProperty("ConstructorStandings")
+                .EnumerateArray()
+                .FirstOrDefault();
+            ConstructorModel Constructor = new ConstructorModel()
+            {
+                Name = standings.GetProperty("Constructor").GetProperty("name").GetString()?.ToLower() ?? ""
+            };
+            return Constructor;
+        }
     }
 }

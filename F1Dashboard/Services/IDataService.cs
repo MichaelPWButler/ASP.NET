@@ -7,5 +7,7 @@ namespace F1Dashboard.Services
         NextRaceModel GetNextRace();
 
         Task<DriverModel> GetDriversLeaderAsync();
+
+        Task<ConstructorModel> GetConstructorsLeaderAsync();
     }
 }

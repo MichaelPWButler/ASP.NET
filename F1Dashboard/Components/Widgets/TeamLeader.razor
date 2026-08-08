@@ -1,0 +1,22 @@
+﻿@using F1Dashboard.Models
+@inject IDataService DataService
+
+@if (_ConstructorModel != null)
+{
+    <div class="card">
+        <div class="team-image">
+            <img src="TeamImages/@(_ConstructorModel.Name).svg" title="@(_ConstructorModel.Name)" />
+        </div>
+
+        <h3>Constructors Leader</h3>
+    </div>
+}
+
+@code {
+    public ConstructorModel? _ConstructorModel;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _ConstructorModel = await DataService.GetConstructorsLeaderAsync();
+    }
+}
