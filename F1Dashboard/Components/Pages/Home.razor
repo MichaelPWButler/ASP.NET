@@ -1,8 +1,38 @@
 ﻿@page "/"
 @using F1Dashboard.Components.Widgets
 
-<PageTitle>Home</PageTitle>
+<div class="dashboard-grid">
 
-<NextRace />
-<DriversLeader />
-<TeamLeader />
+    <!-- LEFT COLUMN -->
+    <div class="dashboard-left">
+        <NextRace />
+        <DriversLeader />
+        <TeamLeader />
+    </div>
+
+    <!-- MIDDLE COLUMN -->
+    <div class="dashboard-middle">
+
+        <div class="dashboard-middle-top">
+            <NumberOfRacesLeft />
+            <div class="placeholder">Widget 5</div>
+        </div>
+
+        <div class="middle-widget">
+            <div class="placeholder">Widget 6</div>
+        </div>
+
+        <div class="middle-widget">
+            <div class="placeholder">Widget 7</div>
+        </div>
+
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="dashboard-right">
+        <div class="placeholder">Widget 8</div>
+        <div class="placeholder">Widget 9</div>
+        <div class="placeholder">Widget 10</div>
+    </div>
+
+</div>

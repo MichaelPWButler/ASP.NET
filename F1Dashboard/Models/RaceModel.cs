@@ -1,6 +1,6 @@
 ﻿namespace F1Dashboard.Models
 {
-    public class NextRaceModel
+    public class RaceModel
     {
         public string Country { get; set; }
         public string Track { get; set; }

@@ -4,10 +4,12 @@ namespace F1Dashboard.Services
 {
     public interface IDataService
     {
-        NextRaceModel GetNextRace();
+        RaceModel GetNextRace();
 
         Task<DriverModel> GetDriversLeaderAsync();
 
         Task<ConstructorModel> GetConstructorsLeaderAsync();
+
+        Task<int> GetNumberOfRaces();
     }
 }

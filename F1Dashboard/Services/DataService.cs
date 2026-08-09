@@ -8,6 +8,7 @@ namespace F1Dashboard.Services
     public class DataService : IDataService
     {
         private readonly HttpClient _Client;
+        private IEnumerable<RaceModel>? _Races;
         private IWebHostEnvironment WebHostEnvironment { get; }
 
         public DataService(HttpClient client, IWebHostEnvironment webHostEnvironment) 
@@ -21,19 +22,18 @@ namespace F1Dashboard.Services
             get { return Path.Combine(WebHostEnvironment.ContentRootPath, "Data", "Races.json"); }
         }
 
-        public NextRaceModel GetNextRace()
+        public RaceModel GetNextRace()
         {
             StreamReader _Reader = File.OpenText(JsonFileName);
-            IEnumerable<NextRaceModel>? _Races = new List<NextRaceModel>();
-
-            _Races = JsonSerializer.Deserialize<NextRaceModel[]>(_Reader.ReadToEnd(),
+            
+            _Races = JsonSerializer.Deserialize<RaceModel[]>(_Reader.ReadToEnd(),
                 new JsonSerializerOptions
                 {
                     PropertyNameCaseInsensitive = true,
                 });
 
-            NextRaceModel _NextRace = _Races?.Where(race => race.Date > DateTime.Now)
-                .OrderBy(race => race.Date).FirstOrDefault() ?? new NextRaceModel();
+            RaceModel _NextRace = _Races?.Where(race => race.Date > DateTime.Now)
+                .OrderBy(race => race.Date).FirstOrDefault() ?? new RaceModel();
 
             return _NextRace;
         }
@@ -83,5 +83,11 @@ namespace F1Dashboard.Services
             };
             return Constructor;
         }
+
+        public async Task<int> GetNumberOfRaces()
+        {
+            return _Races?.Where(race => race.Date > DateTime.Now).Count() ?? 0;
+        }
+
     }
 }

@@ -1,0 +1,16 @@
+﻿@inject IDataService DataService
+
+<div class="card">
+    <h1>Races Left</h1>
+    <br />
+    <h2>@_NumberOfRacesLeft</h2>
+</div>
+
+@code {
+    int _NumberOfRacesLeft;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _NumberOfRacesLeft = await DataService.GetNumberOfRaces();
+    }
+}
