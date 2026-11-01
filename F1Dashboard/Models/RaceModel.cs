@@ -6,5 +6,6 @@
         public string Track { get; set; }
         public DateTime Date { get; set; }
         public string CountryCode { get; set; }
+        public int Round { get; set; }
     }
 }

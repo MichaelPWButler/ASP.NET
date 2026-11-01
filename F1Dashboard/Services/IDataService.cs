@@ -11,5 +11,7 @@ namespace F1Dashboard.Services
         Task<ConstructorModel> GetConstructorsLeaderAsync();
 
         Task<int> GetNumberOfRaces();
+
+        Task<TopDriverLast5Races> GetMostPointsInLastFiveRaces();
     }
 }

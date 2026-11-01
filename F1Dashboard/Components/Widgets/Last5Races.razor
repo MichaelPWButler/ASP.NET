@@ -1,0 +1,12 @@
+﻿@inject IDataService DataService
+
+<div class="card">
+</div>
+
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await DataService.GetMostPointsInLastFiveRaces();
+    }
+}
