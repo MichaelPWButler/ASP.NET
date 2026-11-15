@@ -1,0 +1,79 @@
+﻿@using F1Dashboard.Models
+@implements IDisposable
+@inject IDataService DataService
+
+<div class="card-rectangle card">
+    <div class="countdown-container">
+
+        <h1 class="countdown-title">Countdown To Next Race</h1>
+
+        <div class="countdown-widget">
+            <div class="countdown-item">
+                <h3>@RemainingTime.Days</h3>
+                <h4>DAYS</h4>
+            </div>
+
+            <div class="countdown-item">
+                <h3>@RemainingTime.Hours.ToString("D2")</h3>
+                <h4>HOURS</h4>
+            </div>
+
+            <div class="countdown-item">
+                <h3>@RemainingTime.Minutes.ToString("D2")</h3>
+                <h4>MINUTES</h4>
+            </div>
+
+            <div class="countdown-item">
+                <h3>@RemainingTime.Seconds.ToString("D2")</h3>
+                <h4>SECONDS</h4>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@code {
+    private TimeSpan RemainingTime;
+    private System.Timers.Timer? _timer;
+    private RaceModel? _NextRace;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _NextRace = DataService.GetNextRace();
+
+        RemainingTime = _NextRace.Date - DateTime.Now;
+
+        if (RemainingTime < TimeSpan.Zero)
+            RemainingTime = TimeSpan.Zero;
+
+        _timer = new System.Timers.Timer(1000);
+        _timer.Elapsed += OnTimedEvent;
+        _timer.AutoReset = true;
+        _timer.Start();
+    }
+
+    private void OnTimedEvent(
+        object? sender,
+        System.Timers.ElapsedEventArgs e)
+    {
+        if (RemainingTime <= TimeSpan.Zero)
+        {
+            _timer?.Stop();
+            return;
+        }
+
+        RemainingTime = RemainingTime.Subtract(TimeSpan.FromSeconds(1));
+
+        _ = InvokeAsync(StateHasChanged);
+    }
+
+    public void Dispose()
+    {
+        if (_timer != null)
+        {
+            _timer.Stop();
+            _timer.Elapsed -= OnTimedEvent;
+            _timer.Dispose();
+        }
+    }
+}
