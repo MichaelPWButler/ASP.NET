@@ -1,11 +1,11 @@
 ﻿@using F1Dashboard.Models
 @inject IDataService DataService
 
-@if (_ConstructorModel != null)
+@if (_Team != null)
 {
     <div class="card card-square">
         <div class="team-image">
-            <img src="TeamImages/@(_ConstructorModel.Name).svg" title="@(_ConstructorModel.Name)" />
+            <img src="TeamImages/@(_Team.Name).svg" title="@(_Team.Name)" />
         </div>
 
         <h3>Constructors Leader</h3>
@@ -13,10 +13,10 @@
 }
 
 @code {
-    public ConstructorModel? _ConstructorModel;
+    public ConstructorModel? _Team;
 
     protected override async Task OnInitializedAsync()
     {
-        _ConstructorModel = await DataService.GetConstructorsLeaderAsync();
+        _Team = await DataService.GetConstructorsLeaderAsync();
     }
 }
