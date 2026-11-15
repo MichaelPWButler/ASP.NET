@@ -1,0 +1,16 @@
+﻿@inject IDataService DataService
+
+<div class="card card-square">
+    <h1>Fastest Pit Stop - Last Race</h1>
+    <br />
+    <h2>@($"{_FastestPitStop:F1} seconds")</h2>
+</div>
+
+@code {
+    double _FastestPitStop;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _FastestPitStop = await DataService.GetLastRaceFastestPitStop();
+    }
+}
