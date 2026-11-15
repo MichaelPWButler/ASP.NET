@@ -1,12 +1,23 @@
-﻿@inject IDataService DataService
+﻿@using F1Dashboard.Models
+@inject IDataService DataService
 
-<div class="card">
-</div>
+@if (_Driver != null)
+{
+    <div class="card card-rectangle">
+        <div class="driver-headshot">
+            <img src="DriverImages/@(_Driver.FamilyName).webp" title="@(_Driver.GivenName) @(_Driver.FamilyName)" />
+        </div>
+
+        <h3>Most Points in Last 5 Races</h3>
+    </div>
+}
 
 
 @code {
+    public TopDriverLast5Races? _Driver;
+
     protected override async Task OnInitializedAsync()
     {
-        await DataService.GetMostPointsInLastFiveRaces();
+        _Driver = await DataService.GetMostPointsInLastFiveRaces();
     }
 }

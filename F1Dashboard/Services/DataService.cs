@@ -92,60 +92,22 @@ namespace F1Dashboard.Services
 
         public async Task<TopDriverLast5Races> GetMostPointsInLastFiveRaces()
         {
-            int _CurrentRound = _NextRace.Round - 1;
 
-            var json = await _Client.GetStringAsync("https://api.jolpi.ca/ergast/f1/2026/results/?limit=100");
+            var races = await GetLastFiveRaceResultsAsync();
 
-            using var doc = JsonDocument.Parse(json);
-            var root = doc.RootElement;
+            var driverPoints = CalculateDriverPoints(races);
 
-            var lastFiveRaces = root
-                .GetProperty("MRData")
-                .GetProperty("RaceTable")
-                .GetProperty("Races")
-                .EnumerateArray();
-            //.TakeLast(5);
+            var topDriver = driverPoints
+                .OrderByDescending(d => d.Value.Points)
+                .FirstOrDefault();
 
-            //Dictionary<string, (string FamilyName, string GivenName, double Points)> driverPoints = new Dictionary<string, (string FamilyName, string GivenName, double Points)>();
 
-            //lastFiveRaces = lastFiveRaces.EnumerateArray().TakeLast(5);
-
-            //foreach (var race in lastFiveRaces)
-            //{
-            //    var results = race.GetProperty("Results");
-
-            //    foreach (var result in results.EnumerateArray())
-            //    {
-            //        var driver = result.GetProperty("Driver");
-
-            //        var driverId = driver.GetProperty("driverId").GetString()!;
-            //        var givenName = driver.GetProperty("givenName").GetString();
-            //        var familyName = driver.GetProperty("familyName").GetString();
-
-            //        var points = int.TryParse(result.GetProperty("points").GetString(), out var parsedPoints) ? parsedPoints : 0;
-
-            //        if (driverPoints.ContainsKey(driverId))
-            //        {
-            //            var current = driverPoints[driverId];
-            //            driverPoints[driverId] = (familyName, givenName, current.Points + points);
-            //        }
-            //        else
-            //        {
-            //            driverPoints[driverId] = (familyName, givenName, points);
-            //        }
-            //    }
-            //}
-
-            //var topDriver = driverPoints.OrderByDescending(driver => driver.Value.Points).First();
-
-            return new TopDriverLast5Races();
-
-            //return new TopDriverLast5Races
-            //{
-            //    FamilyName = topDriver.Value.FamilyName,
-            //    GivenName = topDriver.Value.GivenName,
-            //    Points = topDriver.Value.Points
-            //};
+            return new TopDriverLast5Races
+            {
+                GivenName = topDriver.Value.GivenName,
+                FamilyName = topDriver.Value.FamilyName,
+                Points = topDriver.Value.Points
+            };
         }
 
         private async Task<List<JsonDocument>> GetLastFiveRaceResultsAsync()
@@ -171,9 +133,9 @@ namespace F1Dashboard.Services
             return races;
         }
 
-        private Dictionary<string, (string Name, int Points)> CalculateDriverPoints(List<JsonDocument> races)
+        private Dictionary<string, (string GivenName, string FamilyName, int Points)> CalculateDriverPoints(List<JsonDocument> races)
         {
-            var driverPoints = new Dictionary<string, (string Name, int Points)>();
+            var driverPoints = new Dictionary<string, (string GivenName, string FamilyName, int Points)>();
 
             foreach (var raceDoc in races)
             {
@@ -182,30 +144,26 @@ namespace F1Dashboard.Services
                     .GetProperty("RaceTable")
                     .GetProperty("Races");
 
-                if (racesArray.GetArrayLength() == 0)
-                    continue;
-
                 var results = racesArray[0].GetProperty("Results");
 
                 foreach (var result in results.EnumerateArray())
                 {
                     var driver = result.GetProperty("Driver");
 
-                    var id = driver.GetProperty("driverId").GetString()!;
-                    var name = $"{driver.GetProperty("givenName").GetString()} " +
-                               $"{driver.GetProperty("familyName").GetString()}";
+                    string id = driver.GetProperty("driverId").GetString()!;
+                    string GivenName = driver.GetProperty("givenName").GetString();
+                    string FamilyName = driver.GetProperty("familyName").GetString();
 
-                    int points = int.Parse(
-                        result.GetProperty("points").GetString()!);
+                    int points = int.Parse(result.GetProperty("points").GetString()!);
 
                     if (driverPoints.TryGetValue(id, out var current))
                     {
                         driverPoints[id] =
-                            (name, current.Points + points);
+                            (GivenName, FamilyName, current.Points + points);
                     }
                     else
                     {
-                        driverPoints[id] = (name, points);
+                        driverPoints[id] = (GivenName, FamilyName, points);
                     }
                 }
             }

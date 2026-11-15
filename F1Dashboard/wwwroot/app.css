@@ -53,8 +53,6 @@ p {
 .card {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    height: 250px;
-    width: 250px;
     background-color: #262626;
     display: flex;
     justify-content: center;
@@ -65,7 +63,28 @@ p {
     text-align: center;
 }
 
-.dashboard-card {
+.card-square {
+    width: 250px;
+    height: 250px;
+}
+
+
+.card-rectangle {
+    width: 510px;
+    height: 250px;
+}
+
+.driver-headshot {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.driver-headshot img {
     width: 100%;
-    margin: 0;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 1%;
 }
