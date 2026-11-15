@@ -170,5 +170,24 @@ namespace F1Dashboard.Services
 
             return driverPoints;
         }
+
+        public async Task<double> GetLastRaceFastestPitStop()
+        {
+            var url = $"https://api.openf1.org/v1/pit?session_key=latest";
+
+            var response = await _Client.GetStringAsync(url);
+
+            using var document = JsonDocument.Parse(response);
+
+            double fastestPitStop = document.RootElement
+                .EnumerateArray()
+                .Where(p => p.GetProperty("stop_duration").ValueKind != JsonValueKind.Null)
+                .OrderBy(p => p.GetProperty("stop_duration").GetDouble())
+                .FirstOrDefault()
+                .GetProperty("stop_duration")
+                .GetDouble();
+
+            return fastestPitStop;
+        }
     }
 }
