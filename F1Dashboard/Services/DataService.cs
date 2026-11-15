@@ -170,5 +170,45 @@ namespace F1Dashboard.Services
 
             return driverPoints;
         }
+
+        public async Task<ConstructorModel> FastestPitStop()
+        {
+            int currentRound = _NextRace.Round - 1;
+
+            ConstructorModel? Constructor = new();
+
+            for (int round = 1; round <= currentRound; round++)
+            {
+                double fastestPitStop = 0;
+
+                var url = $"https://api.jolpi.ca/ergast/f1/2026/{round}/pitstops/";
+
+                var json = await _Client.GetStringAsync(url);
+
+                using var document = JsonDocument.Parse(json);
+
+                var races = document.RootElement
+                    .GetProperty("MRData")
+                    .GetProperty("RaceTable")
+                    .GetProperty("Races");
+
+                var pitStops = races[0].GetProperty("PitStops");
+
+                foreach (var pitStop in pitStops.EnumerateArray())
+                {
+                    double duration = double.Parse(pitStop.GetProperty("duration").GetString()!);
+
+                    if (duration < fastestPitStop)
+                    {
+                        Constructor = new ConstructorModel
+                        {
+                            Name = pitStop.GetProperty("Constructor").GetProperty("name").GetString()?.ToLower() ?? ""
+                        };
+                    }
+                }
+            }
+
+            return Constructor;
+        }
     }
 }

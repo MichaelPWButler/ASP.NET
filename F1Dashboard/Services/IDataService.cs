@@ -13,5 +13,7 @@ namespace F1Dashboard.Services
         Task<int> GetNumberOfRaces();
 
         Task<TopDriverLast5Races> GetMostPointsInLastFiveRaces();
+
+        Task<ConstructorModel> FastestPitStop();
     }
 }
