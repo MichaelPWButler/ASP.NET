@@ -3,15 +3,20 @@
 
 @if (_Driver != null)
 {
-    <div class="card card-rectangle">
+    <div class="card card-rectangle driver-card">
+
         <div class="driver-headshot">
-            <img src="DriverImages/@(_Driver.FamilyName).webp" title="@(_Driver.GivenName) @(_Driver.FamilyName)" />
+            <img src="DriverImages/@(_Driver.FamilyName).webp"
+                 title="@(_Driver.GivenName) @(_Driver.FamilyName)" />
         </div>
 
-        <h3>Most Points in Last 5 Races</h3>
+        <div class="driver-info">
+            <h1>Most Points in Last 5 Races</h1>
+            <h3>@_Driver.Points</h3>
+        </div>
+
     </div>
 }
-
 
 @code {
     public TopDriverLast5Races? _Driver;
